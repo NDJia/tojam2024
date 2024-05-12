@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{31B145DE-A39D-8DE9-053F-5DFD142607F5}",
+    "Hash": "{0F88E1E9-D0FD-32BA-8B94-044027441F05}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "9239909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-001.wav",
+      "CachePath": "SFX/FF_Concrete-001_818F3B66.wem"
+     },
      {
       "Id": "238919651",
       "Language": "SFX",
@@ -40,6 +48,14 @@
       "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
      },
      {
+      "Id": "311582913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-007.wav",
+      "CachePath": "SFX/FF_Concrete-007_818F3B66.wem"
+     },
+     {
       "Id": "316085455",
       "Language": "SFX",
       "Streaming": "false",
@@ -56,6 +72,14 @@
       "CachePath": "SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem"
      },
      {
+      "Id": "434514611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-002.wav",
+      "CachePath": "SFX/FF_Concrete-002_818F3B66.wem"
+     },
+     {
       "Id": "478544142",
       "Language": "SFX",
       "Streaming": "false",
@@ -64,12 +88,44 @@
       "CachePath": "SFX/Footsteps/FF_Grass-006_8A9C7231.wem"
      },
      {
+      "Id": "503210394",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-008.wav",
+      "CachePath": "SFX/FF_Concrete-008_818F3B66.wem"
+     },
+     {
+      "Id": "520248404",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-003.wav",
+      "CachePath": "SFX/FF_Concrete-003_818F3B66.wem"
+     },
+     {
+      "Id": "554475069",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-006.wav",
+      "CachePath": "SFX/FF_Concrete-006_818F3B66.wem"
+     },
+     {
       "Id": "563125400",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps\\FF_Grass-004.wav",
       "CachePath": "SFX/Footsteps/FF_Grass-004_4BB76909.wem"
+     },
+     {
+      "Id": "613397963",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-004.wav",
+      "CachePath": "SFX/FF_Concrete-004_818F3B66.wem"
      },
      {
       "Id": "663981064",
@@ -86,6 +142,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps\\FF_Grass-010.wav",
       "CachePath": "SFX/Footsteps/FF_Grass-010_56776655.wem"
+     },
+     {
+      "Id": "771240880",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-005.wav",
+      "CachePath": "SFX/FF_Concrete-005_818F3B66.wem"
      },
      {
       "Id": "790382506",
@@ -142,6 +206,22 @@
       "Location": "Memory",
       "ShortName": "Day_Ambiences\\Heavy_rustles.wav",
       "CachePath": "SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "894198606",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-010.wav",
+      "CachePath": "SFX/FF_Concrete-010_818F3B66.wem"
+     },
+     {
+      "Id": "949935114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_Concrete-009.wav",
+      "CachePath": "SFX/FF_Concrete-009_818F3B66.wem"
      },
      {
       "Id": "968918512",
@@ -239,7 +319,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
       "GUID": "{E59D3B8A-4449-4705-B7D8-F379163BF2E6}",
       "DurationType": "OneShot",
-      "DurationMin": "0.34194213",
+      "DurationMin": "0.14383334",
       "DurationMax": "0.7365038",
       "SwitchContainers": [
        {
@@ -280,6 +360,46 @@
          },
          {
           "Id": "968918512"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "1216965916",
+         "GUID": "{4A8C7B2B-2464-4F77-BB7C-23EA3311EDB3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "9239909"
+         },
+         {
+          "Id": "311582913"
+         },
+         {
+          "Id": "434514611"
+         },
+         {
+          "Id": "503210394"
+         },
+         {
+          "Id": "520248404"
+         },
+         {
+          "Id": "554475069"
+         },
+         {
+          "Id": "613397963"
+         },
+         {
+          "Id": "771240880"
+         },
+         {
+          "Id": "894198606"
+         },
+         {
+          "Id": "949935114"
          }
         ]
        }
@@ -336,6 +456,6 @@
     ]
    }
   ],
-  "FileHash": "{3B5A68F5-E501-76D6-A5F7-31E1D5CDDD55}"
+  "FileHash": "{4962F846-4C43-3690-26A4-F49ECCDF02EF}"
  }
 }

@@ -308,9 +308,264 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FS_Stone" ID="{D714FA2A-EE47-421D-A35B-1A75FE1F4AD7}" ShortID="723477704">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FF_Concrete-001" ID="{D4B32E65-FC0A-48CF-96F0-49C0D650BEB7}" ShortID="635918660">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-001" ID="{204C74A7-E393-4B5C-8445-32D43E501A4F}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="9239909"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-001" ID="{204C74A7-E393-4B5C-8445-32D43E501A4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-002" ID="{073D402B-D234-445B-AFDF-E0AD5AAC799E}" ShortID="471410488">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-002" ID="{A5F22288-6417-4084-BCC2-AA321B5B3760}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="434514611"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-002" ID="{A5F22288-6417-4084-BCC2-AA321B5B3760}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-003" ID="{0B3F5CE0-EC3E-4D93-A9AA-ECE351C51E3C}" ShortID="556545342">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-003" ID="{80A2E02C-7E58-40EE-884C-73AE0F2D1717}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="520248404"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-003" ID="{80A2E02C-7E58-40EE-884C-73AE0F2D1717}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-004" ID="{582D6268-3FBF-4682-B84D-80768F4E9AF0}" ShortID="404917807">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-004" ID="{95CE0C6D-BABC-4920-824B-24C0BB09A8F4}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="613397963"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-004" ID="{95CE0C6D-BABC-4920-824B-24C0BB09A8F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-005" ID="{0AB3D2F8-1E7B-4A75-91C2-1F532D188220}" ShortID="531369594">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-005" ID="{5F17B85F-CFE9-4F6A-867C-E6C87BE23081}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771240880"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-005" ID="{5F17B85F-CFE9-4F6A-867C-E6C87BE23081}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-006" ID="{158B5999-CD9E-4F1E-9D13-D64DBCAB8351}" ShortID="369373952">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-006" ID="{9B4B2EA2-C316-4568-9EC2-8990D71647E0}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554475069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-006" ID="{9B4B2EA2-C316-4568-9EC2-8990D71647E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-007" ID="{40CE94C8-B173-4202-8FA4-0F4EC8013FCE}" ShortID="358636331">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-007" ID="{D475560E-378E-461A-BF17-F592DB22E65B}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="311582913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-007" ID="{D475560E-378E-461A-BF17-F592DB22E65B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-008" ID="{1280F3E0-25BA-4D1C-ABDB-69C58D85DBC4}" ShortID="49481327">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-008" ID="{74330AA8-E614-4D4B-A911-88305EEE450D}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="503210394"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-008" ID="{74330AA8-E614-4D4B-A911-88305EEE450D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-009" ID="{8B7DCF59-400F-40CB-A562-46F385298E8D}" ShortID="192643937">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-009" ID="{DE74558A-8E96-4202-BCDB-DEA41298994C}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="949935114"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-009" ID="{DE74558A-8E96-4202-BCDB-DEA41298994C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FF_Concrete-010" ID="{7F518E95-D077-4561-942E-2E018D8EAA25}" ShortID="760975774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FF_Concrete-010" ID="{B1EAA2B2-B391-47C2-8F87-22D2F360793B}">
+											<Language>SFX</Language>
+											<AudioFile>FF_Concrete-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="894198606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FF_Concrete-010" ID="{B1EAA2B2-B391-47C2-8F87-22D2F360793B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="New Sound SFX" ID="{854B8709-F728-496A-BE60-1EE41FD34F62}" ShortID="179211000">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="New Sound SFX" ID="{854B8709-F728-496A-BE60-1EE41FD34F62}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FS_Stone" ID="{D714FA2A-EE47-421D-A35B-1A75FE1F4AD7}"/>
+							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="FS_Grass" ID="{9FC65690-3B62-4038-8FCB-A13417A75497}"/>
 							</GroupingBehavior>
@@ -320,6 +575,12 @@
 								<SwitchRef Name="Grass" ID="{20F4181E-221E-4710-9686-19C0F7F388D1}"/>
 								<ItemList>
 									<ItemRef Name="FS_Grass" ID="{9FC65690-3B62-4038-8FCB-A13417A75497}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{4A8C7B2B-2464-4F77-BB7C-23EA3311EDB3}"/>
+								<ItemList>
+									<ItemRef Name="FS_Stone" ID="{D714FA2A-EE47-421D-A35B-1A75FE1F4AD7}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>
