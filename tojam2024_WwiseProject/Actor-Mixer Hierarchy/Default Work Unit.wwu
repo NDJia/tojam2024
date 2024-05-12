@@ -6,6 +6,7 @@
 				<WorkUnit Name="Player" ID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" PersistMode="Reference"/>
 				<WorkUnit Name="Environment" ID="{5C69296B-FDCD-47FE-8743-6D44F93F2F67}" PersistMode="Reference"/>
 				<WorkUnit Name="Ambiences" ID="{3A0D8BB4-C473-4029-BD20-872C443D214C}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

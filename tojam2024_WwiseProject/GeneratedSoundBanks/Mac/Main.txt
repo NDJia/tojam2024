@@ -1,16 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	193626927	Play_Main_Menu_Theme			\Default Work Unit\Play_Main_Menu_Theme	
 	1911082204	Play_Cave_Ambience			\Default Work Unit\Play_Cave_Ambience	
 	2075495050	Play_Day_Ambiences			\Default Work Unit\Play_Day_Ambiences	
-	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
-
-Switch Group	ID	Name			Wwise Object Path	Notes
-	4050929301	Materials			\Default Work Unit\Materials	
-
-Switch	ID	Name	Switch Group			Notes
-	1216965916	Stone	Materials			
-	2195636714	Dirt	Materials			
-	4248645337	Grass	Materials			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
@@ -22,33 +12,12 @@ Effect plug-ins	ID	Name	Type				Notes
 	2791153688	Hall_Small	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	9239909	FF_Concrete-001	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-001		46388
-	238919651	FF_Grass-002	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-002_350D89E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-002		97380
-	262901530	FF_Grass-001	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-001_B5D90F42.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-001		141504
 	283805128	Low_Rumble	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\Low_Rumble_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\Low_Rumble		7591088
-	311582913	FF_Concrete-007	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-007_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-007		45600
-	316085455	FF_Grass-008	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-008_EED79C5A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-008		76956
 	424278967	WATRDrip_Water Drips_PSE_OS_MUgJC	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC		9744548
-	434514611	FF_Concrete-002	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-002		44576
-	478544142	FF_Grass-006	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-006_8A9C7231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-006		96636
-	503210394	FF_Concrete-008	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-008_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-008		41024
-	520248404	FF_Concrete-003	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-003		48012
-	554475069	FF_Concrete-006	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-006_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-006		46956
-	563125400	FF_Grass-004	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-004_4BB76909.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-004		104684
-	613397963	FF_Concrete-004	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-004		37512
 	663981064	Moving_Cogs	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\Moving_Cogs_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\Moving_Cogs		17465100
-	734328516	FF_Grass-010	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-010_56776655.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-010		68456
-	771240880	FF_Concrete-005	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-005_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-005		53232
-	790382506	FF_Grass-005	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-005_C0A8172F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-005		104200
-	798657041	Main_Menu_Theme	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Main_Menu_Theme_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Courtyard\New Music Playlist Container\Main_Menu_Theme\Main_Menu_Theme		4937240
 	800031998	ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r		7521936
-	801719058	FF_Grass-009	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-009_DA1921FE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-009		65748
-	828421565	FF_Grass-007	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-007_BA267EF2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-007		96312
 	851645482	Birds	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Birds_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Birds		15552096
 	864997062	Heavy_rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavy_rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavy_rustles		4320096
-	894198606	FF_Concrete-010	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-010_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-010		42720
-	949935114	FF_Concrete-009	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\FF_Concrete-009_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-009		27712
-	968918512	FF_Grass-003	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Footsteps\FF_Grass-003_E135C8D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-003		109740
 	973220001	WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY		2973280
 	1002008205	Smaller_Rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Smaller_Rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Smaller_Rustles		5760096
 	1021448084	Heavier_wind	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavier_wind_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavier_wind		7667556
