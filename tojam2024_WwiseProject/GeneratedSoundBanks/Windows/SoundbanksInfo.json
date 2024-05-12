@@ -56,11 +56,35 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{1E5C0FDE-8D31-3CAF-70AF-A80CC6207409}",
+    "Hash": "{56303D88-4F97-968A-7FB4-247DCFDCA599}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "283805128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\Low_Rumble.wav",
+      "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
+     },
+     {
+      "Id": "424278967",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\WATRDrip_Water Drips_PSE_OS_MUgJC.wav",
+      "CachePath": "SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem"
+     },
+     {
+      "Id": "663981064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\Moving_Cogs.wav",
+      "CachePath": "SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem"
+     },
      {
       "Id": "798657041",
       "Language": "SFX",
@@ -68,6 +92,14 @@
       "Location": "Memory",
       "ShortName": "Main_Menu_Theme.wav",
       "CachePath": "SFX/Main_Menu_Theme_FBC78EF0.wem"
+     },
+     {
+      "Id": "800031998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav",
+      "CachePath": "SFX/Cave_Ambience/ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem"
      },
      {
       "Id": "851645482",
@@ -84,6 +116,14 @@
       "Location": "Memory",
       "ShortName": "Day_Ambiences\\Heavy_rustles.wav",
       "CachePath": "SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "973220001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav",
+      "CachePath": "SFX/Cave_Ambience/WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem"
      },
      {
       "Id": "1002008205",
@@ -111,6 +151,30 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1911082204",
+      "Name": "Play_Cave_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Ambience",
+      "GUID": "{F222CD81-A96C-45E5-B1BB-E93954251178}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "283805128"
+       },
+       {
+        "Id": "424278967"
+       },
+       {
+        "Id": "663981064"
+       },
+       {
+        "Id": "800031998"
+       },
+       {
+        "Id": "973220001"
+       }
+      ]
+     },
      {
       "Id": "2075495050",
       "Name": "Play_Day_Ambiences",
@@ -158,6 +222,6 @@
     ]
    }
   ],
-  "FileHash": "{6BF208EC-8DC3-91B7-C20C-75B5CAB0EDEE}"
+  "FileHash": "{5E930CB9-6FF2-66AD-8BB4-3508EBE83CDA}"
  }
 }

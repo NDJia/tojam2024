@@ -157,6 +157,160 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Cave_Ambience" ID="{91174DC1-7E87-4961-B163-03442A6ABEB0}" ShortID="143229891">
+					<ChildrenList>
+						<Sound Name="ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r" ID="{E1553B76-5637-4EB6-B596-41E21AC30EBB}" ShortID="973469078">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r" ID="{C211E0E5-C29E-41B8-B3B0-4119DC4DB63C}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800031998"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r" ID="{C211E0E5-C29E-41B8-B3B0-4119DC4DB63C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Low_Rumble" ID="{5DE84FB5-8B2B-428A-B184-564540567AB2}" ShortID="987882161">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Low_Rumble" ID="{B284BA1A-BCFB-402A-8E26-474A89F65609}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience\Low_Rumble.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="283805128"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Low_Rumble" ID="{B284BA1A-BCFB-402A-8E26-474A89F65609}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Moving_Cogs" ID="{82700D8E-2F8C-406A-B7A2-98F4EBA58A90}" ShortID="91714920">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Moving_Cogs" ID="{4BDCD9B9-AC01-4B8B-AAF2-208524689733}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience\Moving_Cogs.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="663981064"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Moving_Cogs" ID="{4BDCD9B9-AC01-4B8B-AAF2-208524689733}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WATRDrip_Water Drips_PSE_OS_MUgJC" ID="{4AB4C73A-55C1-4505-99A8-7A9614283658}" ShortID="690905751">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WATRDrip_Water Drips_PSE_OS_MUgJC" ID="{E3DB43B0-C6E1-4186-9531-3DDB35997D5F}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="424278967"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WATRDrip_Water Drips_PSE_OS_MUgJC" ID="{E3DB43B0-C6E1-4186-9531-3DDB35997D5F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY" ID="{21DEF451-3C2C-45BD-90EE-55363BCD3D83}" ShortID="735056569">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY" ID="{247DEC10-66AD-4B66-9372-63B1120820C0}">
+									<Language>SFX</Language>
+									<AudioFile>Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="973220001"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY" ID="{247DEC10-66AD-4B66-9372-63B1120820C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

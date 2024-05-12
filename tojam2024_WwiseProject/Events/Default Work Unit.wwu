@@ -53,6 +53,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Cave_Ambience" ID="{F222CD81-A96C-45E5-B1BB-E93954251178}">
+					<ChildrenList>
+						<Action Name="" ID="{260527D8-EBD9-4394-BE52-8933603D85E4}" ShortID="644042595">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r" ID="{E1553B76-5637-4EB6-B596-41E21AC30EBB}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{685D324C-74F5-4748-A24A-1FB5A74A167F}" ShortID="979713224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Low_Rumble" ID="{5DE84FB5-8B2B-428A-B184-564540567AB2}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{72EBC75C-F732-449B-914E-AC59872275DD}" ShortID="320608494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving_Cogs" ID="{82700D8E-2F8C-406A-B7A2-98F4EBA58A90}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08E7A932-BBB5-4371-AF75-9282753F8BD1}" ShortID="446043929">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WATRDrip_Water Drips_PSE_OS_MUgJC" ID="{4AB4C73A-55C1-4505-99A8-7A9614283658}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB8AF328-DE63-4787-9138-00A86A078DE6}" ShortID="905357632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY" ID="{21DEF451-3C2C-45BD-90EE-55363BCD3D83}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

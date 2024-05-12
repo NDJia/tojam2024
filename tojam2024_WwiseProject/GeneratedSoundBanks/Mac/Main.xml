@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{1E5C0FDE-8D31-3CAF-70AF-A80CC6207409}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{56303D88-4F97-968A-7FB4-247DCFDCA599}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="283805128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\Low_Rumble.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="424278967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="663981064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\Moving_Cogs.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main_Menu_Theme.wav</ShortName>
 					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="800031998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="851645482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Ambiences\Birds.wav</ShortName>
@@ -17,6 +33,10 @@
 				<File Id="864997062" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Ambiences\Heavy_rustles.wav</ShortName>
 					<CachePath>SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="973220001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1002008205" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Ambiences\Smaller_Rustles.wav</ShortName>
@@ -32,6 +52,15 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1911082204" Name="Play_Cave_Ambience" ObjectPath="\Events\Default Work Unit\Play_Cave_Ambience" GUID="{F222CD81-A96C-45E5-B1BB-E93954251178}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="283805128"/>
+						<MediaRef Id="424278967"/>
+						<MediaRef Id="663981064"/>
+						<MediaRef Id="800031998"/>
+						<MediaRef Id="973220001"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2075495050" Name="Play_Day_Ambiences" ObjectPath="\Events\Default Work Unit\Play_Day_Ambiences" GUID="{463D2B1B-B030-4B85-8A37-E74796A63CA0}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="851645482"/>
@@ -52,5 +81,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70C03593-71DC-9E4B-AF78-D8B9C9350C83}</FileHash>
+	<FileHash>{2A38EE30-5D33-3E95-5207-579463655CD9}</FileHash>
 </SoundBanksInfo>
