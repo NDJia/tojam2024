@@ -103,7 +103,7 @@
 																	<Local>
 																		<MusicClip Name="Main_Menu_Theme" ID="{6438B514-C9A0-4016-A564-E812AF85C708}">
 																			<PropertyList>
-																				<Property Name="BeginTrimOffset" Type="Real64" Value="2117.64705882353"/>
+																				<Property Name="BeginTrimOffset" Type="Real64" Value="2034.97880491109"/>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="26117.6470588235"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
@@ -117,7 +117,7 @@
 																						</PropertyList>
 																						<PointList>
 																							<Point>
-																								<XPos>2.11765</XPos>
+																								<XPos>2.03498</XPos>
 																								<YPos>0</YPos>
 																								<Flags>5</Flags>
 																							</Point>
@@ -136,7 +136,7 @@
 																						</PropertyList>
 																						<PointList>
 																							<Point>
-																								<XPos>2.11765</XPos>
+																								<XPos>2.03498</XPos>
 																								<YPos>0</YPos>
 																								<Flags>5</Flags>
 																							</Point>
@@ -155,7 +155,7 @@
 																						</PropertyList>
 																						<PointList>
 																							<Point>
-																								<XPos>2.11765</XPos>
+																								<XPos>2.03498</XPos>
 																								<YPos>0</YPos>
 																								<Flags>5</Flags>
 																							</Point>
@@ -206,6 +206,184 @@
 						</MusicSegment>
 					</ChildrenList>
 				</MusicPlaylistContainer>
+				<MusicSegment Name="Courtyard Loop with delay effect" ID="{F22B37A9-297E-47E5-83F0-DCDEF3254D5F}" ShortID="940993669">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="22403.5827664399"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Courtyard Loop with delay effect" ID="{ECB4945B-9F01-44F9-B674-9F4712A88B49}" ShortID="170098137">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{2092B2B8-A802-41A1-9C54-2BA2AF40CF92}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Courtyard Loop with delay effect" ID="{82157CAD-7C8F-4229-A413-E121C6037FCF}">
+									<Language>SFX</Language>
+									<AudioFile>Courtyard Loop with delay effect.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048667347"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{FBECA444-7982-4309-982F-B446C26E4670}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Courtyard Loop with delay effect" ID="{BE0B7E49-46F0-4D5D-BB95-1ED2DAA9C452}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="22403.5827664399"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Courtyard Loop with delay effect" ID="{82157CAD-7C8F-4229-A413-E121C6037FCF}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{23023DC8-F7F1-4877-9AF0-69A2CF184EC9}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{145FFFBF-5792-49AB-A6B5-E34C8E037911}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="22403.5827664399"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+				<MusicSegment Name="Courtyard Loop" ID="{3C330E4A-1EB1-47EA-8919-9B63F260930A}" ShortID="523184665">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="22403.5827664399"/>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Tempo" Type="Real64" Value="85"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Courtyard Loop" ID="{02DFDE54-487E-48A5-9679-F072AC70607A}" ShortID="80240749">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{040A3657-F6FE-4679-BCCB-9AD57CBBB8B8}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Courtyard Loop" ID="{001503C9-1387-4EAB-AB5E-5A07D4C2611D}">
+									<Language>SFX</Language>
+									<AudioFile>Courtyard Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="380214655"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{99268159-A2F9-4D18-AE52-FD9E8F92B1E6}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Courtyard Loop" ID="{76044DD2-14A6-4B6A-AB48-673D7A9D5806}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="22403.5827664399"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Courtyard Loop" ID="{001503C9-1387-4EAB-AB5E-5A07D4C2611D}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{E107C939-5A2F-4CF0-92E1-F8B0BB12B841}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{BC0526B9-0892-4E4E-A9FA-1A31A5C1C651}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="20678.7881099441"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
