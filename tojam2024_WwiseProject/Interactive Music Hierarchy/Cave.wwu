@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" SchemaVersion="119" RootDocumentID="{C051D452-1B69-4913-8834-388D6D86C32C}" ParentDocumentID="{C051D452-1B69-4913-8834-388D6D86C32C}">
 	<InteractiveMusic>
-		<WorkUnit Name="Cave" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" OwnerID="{C051D452-1B69-4913-8834-388D6D86C32C}" PersistMode="Nested"/>
+		<WorkUnit Name="Cave" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" OwnerID="{C051D452-1B69-4913-8834-388D6D86C32C}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSegment Name="Cave Loop" ID="{AC9128DF-8B7A-4290-8AAE-FC818728D40A}" ShortID="475001033">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="39000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Cave Loop" ID="{C448A333-A9EC-454D-879B-F1B7F0E25F85}" ShortID="15956101">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+								<Reference Name="TransitionRoot">
+									<Custom>
+										<MusicTransition Name="Root" ID="{1580A71A-4AD8-4C10-A585-5E80C9CD3982}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cave Loop" ID="{9DA238D1-FE60-4318-B576-C9806B268C9C}">
+									<Language>SFX</Language>
+									<AudioFile>Cave Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="772733432"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{144FBAC8-4C44-4554-A688-E1DDCDCC2063}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="Cave Loop" ID="{74DEF00A-F878-43C1-9E60-85A077E796A4}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="39000"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="Cave Loop" ID="{9DA238D1-FE60-4318-B576-C9806B268C9C}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{0935A815-0197-46A8-9E00-326F831B4FC4}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{652C5138-4047-4EB9-BA7A-48948651C58D}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="39000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
