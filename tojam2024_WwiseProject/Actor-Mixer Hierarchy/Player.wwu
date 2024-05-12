@@ -4,6 +4,9 @@
 		<WorkUnit Name="Player" ID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" OwnerID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}" PersistMode="Nested">
 			<ChildrenList>
 				<SwitchContainer Name="Footsteps" ID="{03A49A4A-6455-40AE-BC16-AAA4A9666BE9}" ShortID="267729319">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
@@ -547,22 +550,9 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<Sound Name="New Sound SFX" ID="{854B8709-F728-496A-BE60-1EE41FD34F62}" ShortID="179211000">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
-							<GroupingBehavior>
-								<ItemRef Name="New Sound SFX" ID="{854B8709-F728-496A-BE60-1EE41FD34F62}"/>
-							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="FS_Stone" ID="{D714FA2A-EE47-421D-A35B-1A75FE1F4AD7}"/>
 							</GroupingBehavior>

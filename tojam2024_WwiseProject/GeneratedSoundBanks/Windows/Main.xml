@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{279B4F15-0FBB-132F-C4C2-17B96271BBC8}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{B87DC123-27BF-6FD4-8FFA-FA563A50C0B8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -131,6 +131,11 @@
 					<CachePath>SFX/Day_Ambiences/Foliage_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2791153688" Name="Hall_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Small" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="1911082204" Name="Play_Cave_Ambience" ObjectPath="\Events\Default Work Unit\Play_Cave_Ambience" GUID="{F222CD81-A96C-45E5-B1BB-E93954251178}" DurationType="Infinite">
 					<MediaRefs>
@@ -193,6 +198,15 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="45551870" Name="Indoor_Room_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Indoor_Room_Verb" GUID="{F4F7C8CF-0686-482E-984E-B2D7166DAA3C}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2791153688"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{9223FAA6-4DF9-46D2-9F46-04F81B0F97DD}">
 					<Switches>
@@ -204,5 +218,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{31AA0DA5-57AF-5248-954A-95850915F866}</FileHash>
+	<FileHash>{E4657493-4617-9B8B-AD4D-727C33CD0EC9}</FileHash>
 </SoundBanksInfo>

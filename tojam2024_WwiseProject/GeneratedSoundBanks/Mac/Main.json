@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{279B4F15-0FBB-132F-C4C2-17B96271BBC8}",
+    "Hash": "{B87DC123-27BF-6FD4-8FFA-FA563A50C0B8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -264,6 +264,18 @@
       "CachePath": "SFX/Day_Ambiences/Foliage_FBC78EF0.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1911082204",
@@ -426,6 +438,21 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "45551870",
+      "Name": "Indoor_Room_Verb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Indoor_Room_Verb",
+      "GUID": "{F4F7C8CF-0686-482E-984E-B2D7166DAA3C}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2791153688"
+        }
+       ]
+      }
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4050929301",
@@ -456,6 +483,6 @@
     ]
    }
   ],
-  "FileHash": "{D2F096C3-6862-B672-16EF-77CB6AF05495}"
+  "FileHash": "{C5C594E6-7EBD-092D-65E7-65372B45609F}"
  }
 }

@@ -15,6 +15,12 @@ Switch	ID	Name	Switch Group			Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	45551870	Indoor_Room_Verb			\Default Work Unit\Master Audio Bus\Indoor_Room_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2791153688	Hall_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	9239909	FF_Concrete-001	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\FF_Concrete-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Stone\FF_Concrete-001		46388
 	238919651	FF_Grass-002	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\Footsteps\FF_Grass-002_350D89E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\FS_Grass\FF_Grass-002		97380
