@@ -93,10 +93,30 @@
         "GUID": "{20F4181E-221E-4710-9686-19C0F7F388D1}"
        }
       ]
+     },
+     {
+      "Id": "4196236882",
+      "Name": "Elements",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Elements",
+      "GUID": "{1EB95066-B6D1-4BEF-B107-76A253B5ABF4}",
+      "Switches": [
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Elements\\Water",
+        "GUID": "{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"
+       },
+       {
+        "Id": "2678880713",
+        "Name": "Fire",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Elements\\Fire",
+        "GUID": "{EA240E1A-E1ED-4999-B890-9D6B61594F3A}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{40E81D95-6A02-0566-7E08-BB59DE951E0F}"
+  "FileHash": "{6C137A18-F8E2-24BD-E053-CA1DE197BBAA}"
  }
 }

@@ -13,6 +13,12 @@
 						<Switch Name="Stone" ID="{4A8C7B2B-2464-4F77-BB7C-23EA3311EDB3}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Elements" ID="{1EB95066-B6D1-4BEF-B107-76A253B5ABF4}">
+					<ChildrenList>
+						<Switch Name="Fire" ID="{EA240E1A-E1ED-4999-B890-9D6B61594F3A}"/>
+						<Switch Name="Water" ID="{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

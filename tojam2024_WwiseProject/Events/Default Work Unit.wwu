@@ -180,6 +180,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Magic_Cast" ID="{36763730-CFCD-44C7-AEE0-1B1D59A67D79}">
+					<ChildrenList>
+						<Action Name="" ID="{855C206C-F632-4F5D-BE58-B4D39CC3B002}" ShortID="522637377">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Cast" ID="{030E0F3C-BDB9-4279-9A98-976D23117BA0}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

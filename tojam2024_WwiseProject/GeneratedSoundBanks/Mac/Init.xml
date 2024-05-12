@@ -34,8 +34,14 @@
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Materials\Grass" GUID="{20F4181E-221E-4710-9686-19C0F7F388D1}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="4196236882" Name="Elements" ObjectPath="\Switches\Default Work Unit\Elements" GUID="{1EB95066-B6D1-4BEF-B107-76A253B5ABF4}">
+					<Switches>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Elements\Water" GUID="{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"/>
+						<Switch Id="2678880713" Name="Fire" ObjectPath="\Switches\Default Work Unit\Elements\Fire" GUID="{EA240E1A-E1ED-4999-B890-9D6B61594F3A}"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E61DCEBA-2A54-48D6-E062-0397F1DF54B9}</FileHash>
+	<FileHash>{B5DC6C7B-3F91-65A3-BDDD-E5A72E998C47}</FileHash>
 </SoundBanksInfo>
