@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{38B3CD2C-E239-41A1-BB73-43E05601CE48}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{352A149D-75A7-4EA9-91B3-EA9B20CEB03A}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{27815680-54B5-52C7-D668-CA4F244C6E20}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="851645482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Birds.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Birds_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="864997062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Heavy_rustles.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1002008205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Smaller_Rustles.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Smaller_Rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1021448084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Heavier_wind.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Heavier_wind_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1042899010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Foliage.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Foliage_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2075495050" Name="Play_Day_Ambiences" ObjectPath="\Events\Default Work Unit\Play_Day_Ambiences" GUID="{463D2B1B-B030-4B85-8A37-E74796A63CA0}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="851645482"/>
+						<MediaRef Id="864997062"/>
+						<MediaRef Id="1002008205"/>
+						<MediaRef Id="1021448084"/>
+						<MediaRef Id="1042899010"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3F704E4A-15B7-F393-1797-53E10241858A}</FileHash>
+</SoundBanksInfo>

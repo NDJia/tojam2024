@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2075495050	Play_Day_Ambiences			\Default Work Unit\Play_Day_Ambiences	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	851645482	Birds	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Birds_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Birds		15552096
+	864997062	Heavy_rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavy_rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavy_rustles		4320096
+	1002008205	Smaller_Rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Smaller_Rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Smaller_Rustles		5760096
+	1021448084	Heavier_wind	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavier_wind_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavier_wind		7667556
+	1042899010	Foliage	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Foliage_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Foliage		4622688
+

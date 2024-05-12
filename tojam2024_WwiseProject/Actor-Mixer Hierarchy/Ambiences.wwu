@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A0D8BB4-C473-4029-BD20-872C443D214C}" SchemaVersion="119" RootDocumentID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}" ParentDocumentID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}">
+	<AudioObjects>
+		<WorkUnit Name="Ambiences" ID="{3A0D8BB4-C473-4029-BD20-872C443D214C}" OwnerID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Day_Ambiences" ID="{3493E121-6C59-4850-8074-079268C3ED57}" ShortID="654516231">
+					<ChildrenList>
+						<Sound Name="Birds" ID="{668970B0-4885-40CD-8829-5450F9EE677F}" ShortID="292619705">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-39</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Birds" ID="{D021E17B-2C81-4569-8CD9-E5CCCE6C1BCD}">
+									<Language>SFX</Language>
+									<AudioFile>Day_Ambiences\Birds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="851645482"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Birds" ID="{D021E17B-2C81-4569-8CD9-E5CCCE6C1BCD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Foliage" ID="{9C757160-BEA8-412C-BC54-4FBB0ACC37D3}" ShortID="388098679">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-54</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Foliage" ID="{328324B6-694D-434A-89B3-1763236F0EDB}">
+									<Language>SFX</Language>
+									<AudioFile>Day_Ambiences\Foliage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042899010"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Foliage" ID="{328324B6-694D-434A-89B3-1763236F0EDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heavier_wind" ID="{EE6B5665-1175-477B-B8CE-05C6B58CC53D}" ShortID="351449631">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-27</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heavier_wind" ID="{BAB32268-3674-4AB6-B802-87061D2B18A0}">
+									<Language>SFX</Language>
+									<AudioFile>Day_Ambiences\Heavier_wind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1021448084"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heavier_wind" ID="{BAB32268-3674-4AB6-B802-87061D2B18A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Heavy_rustles" ID="{6EDE14AF-6AA5-4D51-9F9B-B8B36AAFB64F}" ShortID="852089902">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-31</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Heavy_rustles" ID="{11FEE10A-AD04-4F8D-9C85-65DD9D501EB1}">
+									<Language>SFX</Language>
+									<AudioFile>Day_Ambiences\Heavy_rustles.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="864997062"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Heavy_rustles" ID="{11FEE10A-AD04-4F8D-9C85-65DD9D501EB1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Smaller_Rustles" ID="{69B92DE4-6D0B-4F97-86E3-AA855BE65EDA}" ShortID="770065506">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-39</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5B3653F-512D-45AF-B813-2D0B7A4CCA45}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Smaller_Rustles" ID="{DF93716B-DD6D-44D1-B800-3656F6B88001}">
+									<Language>SFX</Language>
+									<AudioFile>Day_Ambiences\Smaller_Rustles.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1002008205"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Smaller_Rustles" ID="{DF93716B-DD6D-44D1-B800-3656F6B88001}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
