@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{27815680-54B5-52C7-D668-CA4F244C6E20}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{1E5C0FDE-8D31-3CAF-70AF-A80CC6207409}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Menu_Theme.wav</ShortName>
+					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="851645482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Ambiences\Birds.wav</ShortName>
 					<CachePath>SFX/Day_Ambiences/Birds_FBC78EF0.wem</CachePath>
@@ -37,11 +41,16 @@
 						<MediaRef Id="1042899010"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="798657041"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BA8A3738-D612-F198-5EA2-12171B9AC810}</FileHash>
+	<FileHash>{667CF5F0-2990-FB7B-7EDD-09BBCD262F08}</FileHash>
 </SoundBanksInfo>

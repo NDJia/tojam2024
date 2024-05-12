@@ -56,11 +56,19 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{27815680-54B5-52C7-D668-CA4F244C6E20}",
+    "Hash": "{1E5C0FDE-8D31-3CAF-70AF-A80CC6207409}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "798657041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main_Menu_Theme.wav",
+      "CachePath": "SFX/Main_Menu_Theme_FBC78EF0.wem"
+     },
      {
       "Id": "851645482",
       "Language": "SFX",
@@ -126,6 +134,18 @@
         "Id": "1042899010"
        }
       ]
+     },
+     {
+      "Id": "193626927",
+      "Name": "Play_Main_Menu_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
+      "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "798657041"
+       }
+      ]
      }
     ],
     "Busses": [
@@ -138,6 +158,6 @@
     ]
    }
   ],
-  "FileHash": "{8396D7B5-CC9A-AA6B-A68F-400597DAA8B1}"
+  "FileHash": "{6BF208EC-8DC3-91B7-C20C-75B5CAB0EDEE}"
  }
 }

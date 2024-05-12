@@ -1,10 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	193626927	Play_Main_Menu_Theme			\Default Work Unit\Play_Main_Menu_Theme	
 	2075495050	Play_Day_Ambiences			\Default Work Unit\Play_Day_Ambiences	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	798657041	Main_Menu_Theme	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\Main_Menu_Theme_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Courtyard\New Music Playlist Container\Main_Menu_Theme\Main_Menu_Theme		4937240
 	851645482	Birds	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\Day_Ambiences\Birds_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Birds		15552096
 	864997062	Heavy_rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\Day_Ambiences\Heavy_rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavy_rustles		4320096
 	1002008205	Smaller_Rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Windows\SFX\Day_Ambiences\Smaller_Rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Smaller_Rustles		5760096

@@ -42,6 +42,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Main_Menu_Theme" ID="{DDB367AD-98FD-4A00-835B-7077CA60E286}">
+					<ChildrenList>
+						<Action Name="" ID="{E0E1798B-E65A-419E-B0E4-D93C8F00F9C5}" ShortID="877201538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Music Playlist Container" ID="{1DF5231E-3004-4DD4-ACD7-14489A4B1173}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
