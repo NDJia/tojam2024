@@ -35,7 +35,7 @@
 				<Property Name="GenerateSoundBanks\ShowHierarchy" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Dka1xDtRg0KCP7DiB4vds7pjX0Psu3BAhOC9+XCE0f0="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="X3zOfOSr+E+LvpN346oUQ1KZ6xBJVWtGqU8gmKmZYZojjn1um8GITJ9v50j3SfyU"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="X3zOfOSr+E+LvpN346oUQ1KZ6xBJVWtGqU8gmKmZYZo="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{D71990FD-D7F1-4EF6-8F8C-8E59681A4AB0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPybDKR2gnTRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

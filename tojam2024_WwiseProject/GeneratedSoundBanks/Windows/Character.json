@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}",
     "Language": "SFX",
-    "Hash": "{D47A97FB-28BC-6947-AFF6-28BCD2093120}",
+    "Hash": "{1295FDC3-BDA5-3B14-53F4-457A68192314}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -1018,103 +1018,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Magic_Cast",
       "GUID": "{36763730-CFCD-44C7-AEE0-1B1D59A67D79}",
       "DurationType": "OneShot",
-      "DurationMin": "1.5",
-      "DurationMax": "1.5",
-      "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "4196236882",
-         "Id": "2654748154",
-         "GUID": "{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "10577091"
-         },
-         {
-          "Id": "88061822"
-         },
-         {
-          "Id": "308433249"
-         },
-         {
-          "Id": "333748730"
-         },
-         {
-          "Id": "379123308"
-         },
-         {
-          "Id": "409497695"
-         },
-         {
-          "Id": "457411993"
-         },
-         {
-          "Id": "573693109"
-         },
-         {
-          "Id": "595152607"
-         },
-         {
-          "Id": "731545231"
-         },
-         {
-          "Id": "802550041"
-         },
-         {
-          "Id": "1072709502"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "4196236882",
-         "Id": "2678880713",
-         "GUID": "{EA240E1A-E1ED-4999-B890-9D6B61594F3A}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "35546970"
-         },
-         {
-          "Id": "58557049"
-         },
-         {
-          "Id": "349608024"
-         },
-         {
-          "Id": "375140070"
-         },
-         {
-          "Id": "399530728"
-         },
-         {
-          "Id": "411593493"
-         },
-         {
-          "Id": "633930741"
-         },
-         {
-          "Id": "792604118"
-         },
-         {
-          "Id": "918151638"
-         },
-         {
-          "Id": "961638711"
-         },
-         {
-          "Id": "981711288"
-         },
-         {
-          "Id": "1028103752"
-         }
-        ]
-       }
-      ]
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3198256227",
@@ -1273,6 +1178,6 @@
     ]
    }
   ],
-  "FileHash": "{24BD9ADB-61E4-D2D1-F0B9-3F1C0EE57FDF}"
+  "FileHash": "{7CA70CC0-41AA-B578-8E83-48B5B38D1581}"
  }
 }
