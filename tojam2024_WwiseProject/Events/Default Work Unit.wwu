@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0844E7DD-F990-4DD3-8E78-0C2A0712F53B}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0844E7DD-F990-4DD3-8E78-0C2A0712F53B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Day_Ambiences" ID="{463D2B1B-B030-4B85-8A37-E74796A63CA0}">
+					<ChildrenList>
+						<Action Name="" ID="{916C257B-D5AF-4A3F-AD13-68B4A3537B72}" ShortID="621055413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds" ID="{668970B0-4885-40CD-8829-5450F9EE677F}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF9D6C5C-5EFE-4840-9ED3-429DE3E0FE9A}" ShortID="193198258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Foliage" ID="{9C757160-BEA8-412C-BC54-4FBB0ACC37D3}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C54239CA-CC42-4050-B21B-0CC4909AC5CF}" ShortID="286711448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavier_wind" ID="{EE6B5665-1175-477B-B8CE-05C6B58CC53D}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D36B623-8838-4483-BC25-86DAFFC5524C}" ShortID="221183321">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heavy_rustles" ID="{6EDE14AF-6AA5-4D51-9F9B-B8B36AAFB64F}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{78998B36-2C34-4DF5-BF9D-D0452A2803A6}" ShortID="66707955">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Smaller_Rustles" ID="{69B92DE4-6D0B-4F97-86E3-AA855BE65EDA}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Main_Menu_Theme" ID="{DDB367AD-98FD-4A00-835B-7077CA60E286}">
+					<ChildrenList>
+						<Action Name="" ID="{E0E1798B-E65A-419E-B0E4-D93C8F00F9C5}" ShortID="877201538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="COURTYARD_MUSIC" ID="{1DF5231E-3004-4DD4-ACD7-14489A4B1173}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cave_Ambience" ID="{F222CD81-A96C-45E5-B1BB-E93954251178}">
+					<ChildrenList>
+						<Action Name="" ID="{260527D8-EBD9-4394-BE52-8933603D85E4}" ShortID="644042595">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r" ID="{E1553B76-5637-4EB6-B596-41E21AC30EBB}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{685D324C-74F5-4748-A24A-1FB5A74A167F}" ShortID="979713224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Low_Rumble" ID="{5DE84FB5-8B2B-428A-B184-564540567AB2}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{72EBC75C-F732-449B-914E-AC59872275DD}" ShortID="320608494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Moving_Cogs" ID="{82700D8E-2F8C-406A-B7A2-98F4EBA58A90}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08E7A932-BBB5-4371-AF75-9282753F8BD1}" ShortID="446043929">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WATRDrip_Water Drips_PSE_OS_MUgJC" ID="{4AB4C73A-55C1-4505-99A8-7A9614283658}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BB8AF328-DE63-4787-9138-00A86A078DE6}" ShortID="905357632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY" ID="{21DEF451-3C2C-45BD-90EE-55363BCD3D83}" WorkUnitID="{3A0D8BB4-C473-4029-BD20-872C443D214C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Footsteps" ID="{E59D3B8A-4449-4705-B7D8-F379163BF2E6}">
+					<ChildrenList>
+						<Action Name="" ID="{BA319BE5-3257-4D98-AF03-9779767CD867}" ShortID="540192471">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{03A49A4A-6455-40AE-BC16-AAA4A9666BE9}" WorkUnitID="{793C44FC-7D1E-4BE9-98C3-0A8797634BBF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DE52AB55-F1BB-4A03-8C5B-AB106C2BECC5}" ShortID="645923136">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+								<Property Name="Probability" Type="Real64" Value="46"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jostles" ID="{087B4D4B-7472-4AB5-9230-2D0A6B04A1FE}" WorkUnitID="{793C44FC-7D1E-4BE9-98C3-0A8797634BBF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F244409E-D642-4D10-8E3E-4B604C62994A}" ShortID="27174319">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.2"/>
+								<Property Name="Probability" Type="Real64" Value="60"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cloth_Moves" ID="{BF4C9235-C459-4F83-8B23-4A5EE220B03E}" WorkUnitID="{793C44FC-7D1E-4BE9-98C3-0A8797634BBF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Landing" ID="{287D8139-5114-4BC4-AC54-6D978CEB0E79}">
+					<ChildrenList>
+						<Action Name="" ID="{AE84FF02-1DCA-43A5-8044-E399D2D69D44}" ShortID="63375148">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Landing" ID="{D11C58F6-DBBA-4155-AE14-35D427891077}" WorkUnitID="{793C44FC-7D1E-4BE9-98C3-0A8797634BBF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_Cast" ID="{5C523C17-D172-4ECF-90DE-6081065425FA}">
+					<ChildrenList>
+						<Action Name="" ID="{8F206604-A073-4D2A-AFAE-2716D7C2D535}" ShortID="306954910">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Cast" ID="{90AE0207-A2CA-4C19-9E10-D08ADA688535}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_Impact" ID="{0C0E33E3-D2CC-4EEF-80B8-34E858AA1461}">
+					<ChildrenList>
+						<Action Name="" ID="{5F1D4F0A-BF18-4959-A2AD-5F0CD00B8221}" ShortID="1010052145">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Impact" ID="{B323CC8E-E3E1-41CC-8E50-9FE63B3299C7}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire_Cast" ID="{7D08D47B-1270-4FB1-A1E9-18ED69991749}">
+					<ChildrenList>
+						<Action Name="" ID="{E76B557F-A5FF-4C45-947E-0CDAB26D159C}" ShortID="35741299">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Cast" ID="{6EE9629F-0DD9-4E20-984A-5306C9B0D8FC}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire_Impact" ID="{5FB4887C-F520-4DFA-BE32-1612113D48BF}">
+					<ChildrenList>
+						<Action Name="" ID="{4E74CC81-2489-4F07-BDA2-D4F23DF30BF2}" ShortID="469014734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Impact" ID="{B6477E28-6385-4408-911E-27E100D6C84D}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Magic_Cast" ID="{36763730-CFCD-44C7-AEE0-1B1D59A67D79}">
+					<ChildrenList>
+						<Action Name="" ID="{855C206C-F632-4F5D-BE58-B4D39CC3B002}" ShortID="522637377">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic_Cast" ID="{030E0F3C-BDB9-4279-9A98-976D23117BA0}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Courtyard_Loop" ID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}">
+					<ChildrenList>
+						<Action Name="" ID="{E506802C-67C8-4F7A-BE7F-AB7F803A53D8}" ShortID="331586658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Courtyard Loop with delay effect" ID="{F22B37A9-297E-47E5-83F0-DCDEF3254D5F}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D88D2286-DAD7-4AC0-A83F-D529945E950B}" ShortID="980135606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="COURTYARD_MUSIC" ID="{1DF5231E-3004-4DD4-ACD7-14489A4B1173}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire_Charge" ID="{9A18754C-66BF-4C2A-9365-B91E0D2EC672}">
+					<ChildrenList>
+						<Action Name="" ID="{E343E319-A1CD-4E33-AD49-E80A72B2117A}" ShortID="479441986">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cast_Low_Burning" ID="{FBCC147C-AAA9-408B-9639-5F17F5AE31CB}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_charge" ID="{389E9D5B-86DF-4D47-BD8A-00EF86EB47EE}">
+					<ChildrenList>
+						<Action Name="" ID="{61F45176-3654-42BB-B8BC-B3A07520CAA4}" ShortID="278152113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cast_Water" ID="{18F1E578-9CB9-42DD-8E5F-42EAF5783F91}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{A69DF0C1-E621-00E9-D919-CED99B260563}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="132620680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-002.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="197845122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Selection Made.wav</ShortName>
+					<CachePath>SFX/Selection Made_818F3B66.wem</CachePath>
+				</File>
+				<File Id="223654343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Game_Start.wav</ShortName>
+					<CachePath>SFX/Game_Start_818F3B66.wem</CachePath>
+				</File>
+				<File Id="224803968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-004.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="283805128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\Low_Rumble.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="325496604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-001.wav</ShortName>
+					<CachePath>SFX/Name_Entry-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="380214655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Courtyard Loop.wav</ShortName>
+					<CachePath>SFX/Courtyard Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="424278967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="460323072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-002.wav</ShortName>
+					<CachePath>SFX/Name_Entry-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="663981064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\Moving_Cogs.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="734118293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-001.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="772733432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave Loop.wav</ShortName>
+					<CachePath>SFX/Cave Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Menu_Theme.wav</ShortName>
+					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="800031998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="851645482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Birds.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Birds_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="853857001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-003.wav</ShortName>
+					<CachePath>SFX/Name_Entry-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="864997062" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Heavy_rustles.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="905335795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-003.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="973220001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav</ShortName>
+					<CachePath>SFX/Cave_Ambience/WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1002008205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Smaller_Rustles.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Smaller_Rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1021448084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Heavier_wind.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Heavier_wind_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1042899010" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Day_Ambiences\Foliage.wav</ShortName>
+					<CachePath>SFX/Day_Ambiences/Foliage_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1048667347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Courtyard Loop with delay effect.wav</ShortName>
+					<CachePath>SFX/Courtyard Loop with delay effect_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2791153688" Name="Hall_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Small" GUID="{D65B5F04-B83B-412C-9434-34A13A477E24}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="1911082204" Name="Play_Cave_Ambience" ObjectPath="\Events\Default Work Unit\Play_Cave_Ambience" GUID="{F222CD81-A96C-45E5-B1BB-E93954251178}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="283805128"/>
+						<MediaRef Id="424278967"/>
+						<MediaRef Id="663981064"/>
+						<MediaRef Id="800031998"/>
+						<MediaRef Id="973220001"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
+					<MediaRefs>
+						<MediaRef Id="380214655"/>
+						<MediaRef Id="1048667347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2075495050" Name="Play_Day_Ambiences" ObjectPath="\Events\Default Work Unit\Play_Day_Ambiences" GUID="{463D2B1B-B030-4B85-8A37-E74796A63CA0}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="851645482"/>
+						<MediaRef Id="864997062"/>
+						<MediaRef Id="1002008205"/>
+						<MediaRef Id="1021448084"/>
+						<MediaRef Id="1042899010"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="380214655"/>
+						<MediaRef Id="1048667347"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="45551870" Name="Indoor_Room_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Indoor_Room_Verb" GUID="{F4F7C8CF-0686-482E-984E-B2D7166DAA3C}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2791153688"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume" GUID="{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E4F7A2F7-BE42-2B3C-BF40-D111742D706D}</FileHash>
+</SoundBanksInfo>

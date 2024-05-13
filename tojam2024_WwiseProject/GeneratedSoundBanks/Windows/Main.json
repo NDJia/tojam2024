@@ -1,0 +1,334 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
+    "Language": "SFX",
+    "Hash": "{A69DF0C1-E621-00E9-D919-CED99B260563}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "132620680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-002.wav",
+      "CachePath": "SFX/Buttton_Movement-002_818F3B66.wem"
+     },
+     {
+      "Id": "197845122",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Selection Made.wav",
+      "CachePath": "SFX/Selection Made_818F3B66.wem"
+     },
+     {
+      "Id": "223654343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game_Start.wav",
+      "CachePath": "SFX/Game_Start_818F3B66.wem"
+     },
+     {
+      "Id": "224803968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-004.wav",
+      "CachePath": "SFX/Buttton_Movement-004_818F3B66.wem"
+     },
+     {
+      "Id": "283805128",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\Low_Rumble.wav",
+      "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
+     },
+     {
+      "Id": "325496604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-001.wav",
+      "CachePath": "SFX/Name_Entry-001_818F3B66.wem"
+     },
+     {
+      "Id": "380214655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Courtyard Loop.wav",
+      "CachePath": "SFX/Courtyard Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "424278967",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\WATRDrip_Water Drips_PSE_OS_MUgJC.wav",
+      "CachePath": "SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem"
+     },
+     {
+      "Id": "460323072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-002.wav",
+      "CachePath": "SFX/Name_Entry-002_818F3B66.wem"
+     },
+     {
+      "Id": "663981064",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\Moving_Cogs.wav",
+      "CachePath": "SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem"
+     },
+     {
+      "Id": "734118293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-001.wav",
+      "CachePath": "SFX/Buttton_Movement-001_818F3B66.wem"
+     },
+     {
+      "Id": "772733432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave Loop.wav",
+      "CachePath": "SFX/Cave Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "798657041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main_Menu_Theme.wav",
+      "CachePath": "SFX/Main_Menu_Theme_FBC78EF0.wem"
+     },
+     {
+      "Id": "800031998",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav",
+      "CachePath": "SFX/Cave_Ambience/ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem"
+     },
+     {
+      "Id": "851645482",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Day_Ambiences\\Birds.wav",
+      "CachePath": "SFX/Day_Ambiences/Birds_FBC78EF0.wem"
+     },
+     {
+      "Id": "853857001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-003.wav",
+      "CachePath": "SFX/Name_Entry-003_818F3B66.wem"
+     },
+     {
+      "Id": "864997062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Day_Ambiences\\Heavy_rustles.wav",
+      "CachePath": "SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "905335795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-003.wav",
+      "CachePath": "SFX/Buttton_Movement-003_818F3B66.wem"
+     },
+     {
+      "Id": "973220001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave_Ambience\\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav",
+      "CachePath": "SFX/Cave_Ambience/WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem"
+     },
+     {
+      "Id": "1002008205",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Day_Ambiences\\Smaller_Rustles.wav",
+      "CachePath": "SFX/Day_Ambiences/Smaller_Rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "1021448084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Day_Ambiences\\Heavier_wind.wav",
+      "CachePath": "SFX/Day_Ambiences/Heavier_wind_FBC78EF0.wem"
+     },
+     {
+      "Id": "1042899010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Day_Ambiences\\Foliage.wav",
+      "CachePath": "SFX/Day_Ambiences/Foliage_FBC78EF0.wem"
+     },
+     {
+      "Id": "1048667347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Courtyard Loop with delay effect.wav",
+      "CachePath": "SFX/Courtyard Loop with delay effect_FBC78EF0.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1911082204",
+      "Name": "Play_Cave_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Ambience",
+      "GUID": "{F222CD81-A96C-45E5-B1BB-E93954251178}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "283805128"
+       },
+       {
+        "Id": "424278967"
+       },
+       {
+        "Id": "663981064"
+       },
+       {
+        "Id": "800031998"
+       },
+       {
+        "Id": "973220001"
+       }
+      ]
+     },
+     {
+      "Id": "2717365404",
+      "Name": "Play_Courtyard_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Courtyard_Loop",
+      "GUID": "{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "22.403582",
+      "DurationMax": "22.403582",
+      "MediaRefs": [
+       {
+        "Id": "380214655"
+       },
+       {
+        "Id": "1048667347"
+       }
+      ]
+     },
+     {
+      "Id": "2075495050",
+      "Name": "Play_Day_Ambiences",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Day_Ambiences",
+      "GUID": "{463D2B1B-B030-4B85-8A37-E74796A63CA0}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "851645482"
+       },
+       {
+        "Id": "864997062"
+       },
+       {
+        "Id": "1002008205"
+       },
+       {
+        "Id": "1021448084"
+       },
+       {
+        "Id": "1042899010"
+       }
+      ]
+     },
+     {
+      "Id": "193626927",
+      "Name": "Play_Main_Menu_Theme",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
+      "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "380214655"
+       },
+       {
+        "Id": "1048667347"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "45551870",
+      "Name": "Indoor_Room_Verb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Indoor_Room_Verb",
+      "GUID": "{F4F7C8CF-0686-482E-984E-B2D7166DAA3C}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2791153688"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4F6DA88A-1247-1543-0C3D-23F056DBDAB1}"
+ }
+}
