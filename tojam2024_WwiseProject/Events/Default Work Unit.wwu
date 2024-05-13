@@ -191,6 +191,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Courtyard_Loop" ID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}">
+					<ChildrenList>
+						<Action Name="" ID="{E506802C-67C8-4F7A-BE7F-AB7F803A53D8}" ShortID="331586658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Courtyard Loop with delay effect" ID="{F22B37A9-297E-47E5-83F0-DCDEF3254D5F}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
