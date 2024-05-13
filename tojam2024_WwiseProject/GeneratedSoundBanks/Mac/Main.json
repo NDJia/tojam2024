@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{7C9BF4B5-626A-8834-EFC4-D0B435363EAE}",
+    "Hash": "{41A82C18-CFEC-7D83-394D-50BB7C6D140C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -246,9 +246,17 @@
        ]
       }
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"
+     }
     ]
    }
   ],
-  "FileHash": "{318D02E4-7723-5D30-E0B9-5E042FCE8FE8}"
+  "FileHash": "{22003003-5CCD-C04E-DBA2-4EEB7BE3A555}"
  }
 }

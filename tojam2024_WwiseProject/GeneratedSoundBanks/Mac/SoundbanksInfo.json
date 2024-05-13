@@ -1190,7 +1190,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{38164EF4-812B-E198-8C19-834D3800F76D}",
+    "Hash": "{0EEF07BF-F485-C8FD-15DC-739F122768B6}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -1247,6 +1247,14 @@
       }
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4050929301",
@@ -1301,7 +1309,7 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{7C9BF4B5-626A-8834-EFC4-D0B435363EAE}",
+    "Hash": "{41A82C18-CFEC-7D83-394D-50BB7C6D140C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1537,6 +1545,14 @@
        ]
       }
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2918011349",
+      "Name": "MasterVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MasterVolume",
+      "GUID": "{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"
+     }
     ]
    },
    {
@@ -1550,6 +1566,6 @@
     "Path": "Music.bnk"
    }
   ],
-  "FileHash": "{E8DC9DD7-6A33-AF46-9CF4-0381AF3AD864}"
+  "FileHash": "{9F5D5BD3-5085-728F-C19C-B9877E83551C}"
  }
 }
