@@ -194,6 +194,13 @@
 				<Event Name="Play_Courtyard_Loop" ID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}">
 					<ChildrenList>
 						<Action Name="" ID="{E506802C-67C8-4F7A-BE7F-AB7F803A53D8}" ShortID="331586658">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Courtyard Loop with delay effect" ID="{F22B37A9-297E-47E5-83F0-DCDEF3254D5F}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
@@ -226,6 +233,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Cast_Water" ID="{18F1E578-9CB9-42DD-8E5F-42EAF5783F91}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Game_Start" ID="{FEF3409D-362E-42F4-9DAC-DBC2EA0504CA}">
+					<ChildrenList>
+						<Action Name="" ID="{907BD6A8-2AE6-492D-B9EA-CF531EBF0330}" ShortID="232683268">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Start" ID="{89D890DD-923D-4BCB-9790-999D7BAF675A}" WorkUnitID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Selection_Made" ID="{58A409A5-0139-48A9-8418-5B4B949AB939}">
+					<ChildrenList>
+						<Action Name="" ID="{30311360-610C-454A-9285-CC1FA97A9C18}" ShortID="328907855">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Selection Made" ID="{73326E92-2F3A-497B-93CC-BFF481B68ED0}" WorkUnitID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Text_Input" ID="{719ADEBD-392B-41F3-A00D-633262E3A1FD}">
+					<ChildrenList>
+						<Action Name="" ID="{923E0BB9-75C2-4FB8-94D7-3FD542D411A3}" ShortID="953244656">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Text_Input" ID="{321607AF-6656-41F6-B391-D28C5F5900FC}" WorkUnitID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Button" ID="{3B6D7DAB-6E83-4B8C-AB7C-A7B26B581C2D}">
+					<ChildrenList>
+						<Action Name="" ID="{54E88A8E-E0C1-4035-B524-1406BBF63AAB}" ShortID="107631273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button" ID="{371E4044-4256-41D1-8084-B0F211CFBA44}" WorkUnitID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
