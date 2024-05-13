@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{51461AB0-5EDA-3EF8-5BA7-A2FC78062F7D}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{7C9BF4B5-626A-8834-EFC4-D0B435363EAE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -9,6 +9,10 @@
 				<File Id="283805128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\Low_Rumble.wav</ShortName>
 					<CachePath>SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="380214655" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Courtyard Loop.wav</ShortName>
+					<CachePath>SFX/Courtyard Loop_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="424278967" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC.wav</ShortName>
@@ -76,6 +80,7 @@
 				</Event>
 				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
 					<MediaRefs>
+						<MediaRef Id="380214655"/>
 						<MediaRef Id="1048667347"/>
 					</MediaRefs>
 				</Event>
@@ -88,9 +93,10 @@
 						<MediaRef Id="1042899010"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
+				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
-						<MediaRef Id="798657041"/>
+						<MediaRef Id="380214655"/>
+						<MediaRef Id="1048667347"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -108,5 +114,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7ADE3A44-306D-C669-35DC-E26DFEECCB8F}</FileHash>
+	<FileHash>{F281ACF0-F9AB-5E05-C3F1-CD93E84C3181}</FileHash>
 </SoundBanksInfo>

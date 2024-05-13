@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{51461AB0-5EDA-3EF8-5BA7-A2FC78062F7D}",
+    "Hash": "{7C9BF4B5-626A-8834-EFC4-D0B435363EAE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Low_Rumble.wav",
       "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
+     },
+     {
+      "Id": "380214655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Courtyard Loop.wav",
+      "CachePath": "SFX/Courtyard Loop_FBC78EF0.wem"
      },
      {
       "Id": "424278967",
@@ -167,6 +175,9 @@
       "DurationMax": "22.403582",
       "MediaRefs": [
        {
+        "Id": "380214655"
+       },
+       {
         "Id": "1048667347"
        }
       ]
@@ -200,10 +211,15 @@
       "Name": "Play_Main_Menu_Theme",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
       "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "MediaRefs": [
        {
-        "Id": "798657041"
+        "Id": "380214655"
+       },
+       {
+        "Id": "1048667347"
        }
       ]
      }
@@ -233,6 +249,6 @@
     ]
    }
   ],
-  "FileHash": "{84441525-EAE5-E80F-987C-40555E0E58D3}"
+  "FileHash": "{318D02E4-7723-5D30-E0B9-5E042FCE8FE8}"
  }
 }
