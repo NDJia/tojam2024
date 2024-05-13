@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3991942870" Type="User" GUID="{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}" Language="SFX" Hash="{B80C94C7-D773-E156-4B78-D5DF17E6B3F9}">
+		<SoundBank Id="3991942870" Type="User" GUID="{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}" Language="SFX" Hash="{8075EEFB-2136-8445-22D7-93138A5F3A36}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
-			<Media>
-				<File Id="772733432" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Cave Loop.wav</ShortName>
-					<CachePath>SFX/Cave Loop_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main_Menu_Theme.wav</ShortName>
-					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1048667347" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Courtyard Loop with delay effect.wav</ShortName>
-					<CachePath>SFX/Courtyard Loop with delay effect_FBC78EF0.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
-					<MediaRefs>
-						<MediaRef Id="1048667347"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="798657041"/>
-					</MediaRefs>
-				</Event>
-			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{41874CD9-2988-D482-1AEC-E2FCD843A3ED}</FileHash>
+	<FileHash>{7360CAC4-7EE7-24AA-1485-598BF5B02330}</FileHash>
 </SoundBanksInfo>

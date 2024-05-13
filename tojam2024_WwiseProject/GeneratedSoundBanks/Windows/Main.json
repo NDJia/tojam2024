@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{51461AB0-5EDA-3EF8-5BA7-A2FC78062F7D}",
+    "Hash": "{71ACAF99-0B72-253A-AC03-A94267311091}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -38,22 +38,6 @@
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Moving_Cogs.wav",
       "CachePath": "SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem"
-     },
-     {
-      "Id": "772733432",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cave Loop.wav",
-      "CachePath": "SFX/Cave Loop_FBC78EF0.wem"
-     },
-     {
-      "Id": "798657041",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main_Menu_Theme.wav",
-      "CachePath": "SFX/Main_Menu_Theme_FBC78EF0.wem"
      },
      {
       "Id": "800031998",
@@ -110,14 +94,6 @@
       "Location": "Memory",
       "ShortName": "Day_Ambiences\\Foliage.wav",
       "CachePath": "SFX/Day_Ambiences/Foliage_FBC78EF0.wem"
-     },
-     {
-      "Id": "1048667347",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Courtyard Loop with delay effect.wav",
-      "CachePath": "SFX/Courtyard Loop with delay effect_FBC78EF0.wem"
      }
     ],
     "Plugins": {
@@ -158,20 +134,6 @@
       ]
      },
      {
-      "Id": "2717365404",
-      "Name": "Play_Courtyard_Loop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Courtyard_Loop",
-      "GUID": "{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}",
-      "DurationType": "OneShot",
-      "DurationMin": "22.403582",
-      "DurationMax": "22.403582",
-      "MediaRefs": [
-       {
-        "Id": "1048667347"
-       }
-      ]
-     },
-     {
       "Id": "2075495050",
       "Name": "Play_Day_Ambiences",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Day_Ambiences",
@@ -192,18 +154,6 @@
        },
        {
         "Id": "1042899010"
-       }
-      ]
-     },
-     {
-      "Id": "193626927",
-      "Name": "Play_Main_Menu_Theme",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
-      "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "798657041"
        }
       ]
      }
@@ -233,6 +183,6 @@
     ]
    }
   ],
-  "FileHash": "{4F0E3562-B0A0-0069-9923-2AE7FB1A52FD}"
+  "FileHash": "{A51D1DD3-4868-5565-3866-96A63EDF3D72}"
  }
 }

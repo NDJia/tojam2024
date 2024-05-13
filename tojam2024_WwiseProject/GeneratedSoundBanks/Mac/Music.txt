@@ -1,9 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	193626927	Play_Main_Menu_Theme			\Default Work Unit\Play_Main_Menu_Theme	
-	2717365404	Play_Courtyard_Loop			\Default Work Unit\Play_Courtyard_Loop	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	772733432	Cave Loop	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave Loop_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Cave\Cave Loop\Cave Loop		6879696
-	798657041	Main_Menu_Theme	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Main_Menu_Theme_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Courtyard\New Music Playlist Container\Main_Menu_Theme\Main_Menu_Theme		4937240
-	1048667347	Courtyard Loop with delay effect	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Courtyard Loop with delay effect_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Courtyard\Courtyard Loop with delay effect\Courtyard Loop with delay effect		3952088
-

@@ -9,10 +9,563 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{65A3334C-4DCA-975C-CB27-EF4C1EFF96C7}">
+		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{D47A97FB-28BC-6947-AFF6-28BCD2093120}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
+			<Media>
+				<File Id="9239909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-001.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="10577091" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Water\Cast_Water-002.wav</ShortName>
+					<CachePath>SFX/Cast_Water/Cast_Water-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="13270863" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-003.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="15275814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whoosh\Impact_Whoosh-001.wav</ShortName>
+					<CachePath>SFX/Impact_Whoosh/Impact_Whoosh-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="16074496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whooshes\Impact_Whooshes-003.wav</ShortName>
+					<CachePath>SFX/Impact_Whooshes/Impact_Whooshes-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="23667309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-002.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="35546970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Low_Burning\Cast_Low_Burning-001.wav</ShortName>
+					<CachePath>SFX/Cast_Low_Burning/Cast_Low_Burning-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="50830314" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Sub\Impact_Sub-003.wav</ShortName>
+					<CachePath>SFX/Impact_Sub/Impact_Sub-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="58557049" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Fire -004.wav</ShortName>
+					<CachePath>SFX/Cast_Fire -004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="88061822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Water\Cast_Water-001.wav</ShortName>
+					<CachePath>SFX/Cast_Water/Cast_Water-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="180765155" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-004.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="183583779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landing_Jostle-003.wav</ShortName>
+					<CachePath>SFX/Landing_Jostle-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="204405801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-005.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-005_818F3B66.wem</CachePath>
+				</File>
+				<File Id="212812549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landing_Jostle-002.wav</ShortName>
+					<CachePath>SFX/Landing_Jostle-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="213794965" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Sub\Impact_Sub-004.wav</ShortName>
+					<CachePath>SFX/Impact_Sub/Impact_Sub-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="218835467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Water\Impact_Water-001.wav</ShortName>
+					<CachePath>SFX/Impact_Water/Impact_Water-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="238919651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-002.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-002_350D89E2.wem</CachePath>
+				</File>
+				<File Id="262901530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-001.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-001_B5D90F42.wem</CachePath>
+				</File>
+				<File Id="288427198" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Fire -001.wav</ShortName>
+					<CachePath>SFX/Impact_Fire -001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="289460316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Water\Impact_Water-004.wav</ShortName>
+					<CachePath>SFX/Impact_Water/Impact_Water-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="299251037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-004.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="308433249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whooshes\Cast_Whooshes-001.wav</ShortName>
+					<CachePath>SFX/Cast_Whooshes/Cast_Whooshes-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="311582913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-007.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-007_818F3B66.wem</CachePath>
+				</File>
+				<File Id="312986345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-002.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="316085455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-008.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-008_EED79C5A.wem</CachePath>
+				</File>
+				<File Id="320408370" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-001.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="333748730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whooshes\Cast_Whooshes-004.wav</ShortName>
+					<CachePath>SFX/Cast_Whooshes/Cast_Whooshes-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="343703648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Sub\Impact_Sub-002.wav</ShortName>
+					<CachePath>SFX/Impact_Sub/Impact_Sub-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="349608024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Fire -002.wav</ShortName>
+					<CachePath>SFX/Cast_Fire -002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="357086044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-005.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-005_818F3B66.wem</CachePath>
+				</File>
+				<File Id="362367117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Transients\Impact_Transients-001.wav</ShortName>
+					<CachePath>SFX/Impact_Transients/Impact_Transients-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="375140070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Fire -003.wav</ShortName>
+					<CachePath>SFX/Cast_Fire -003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="379123308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whooshes\Cast_Whooshes-002.wav</ShortName>
+					<CachePath>SFX/Cast_Whooshes/Cast_Whooshes-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="399530728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Fire -001.wav</ShortName>
+					<CachePath>SFX/Cast_Fire -001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="409497695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whooshes\Cast_Whooshes-003.wav</ShortName>
+					<CachePath>SFX/Cast_Whooshes/Cast_Whooshes-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="411593493" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Low_Burning\Cast_Low_Burning-002.wav</ShortName>
+					<CachePath>SFX/Cast_Low_Burning/Cast_Low_Burning-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="415206517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Fire -003.wav</ShortName>
+					<CachePath>SFX/Impact_Fire -003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434514611" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-002.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="457411993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Sparkles\Cast_Sparkles-004.wav</ShortName>
+					<CachePath>SFX/Cast_Sparkles/Cast_Sparkles-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="460717147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Transients\Impact_Transients-004.wav</ShortName>
+					<CachePath>SFX/Impact_Transients/Impact_Transients-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="478544142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-006.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-006_8A9C7231.wem</CachePath>
+				</File>
+				<File Id="503210394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-008.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-008_818F3B66.wem</CachePath>
+				</File>
+				<File Id="520248404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-003.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="535493041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landing_Jostle-001.wav</ShortName>
+					<CachePath>SFX/Landing_Jostle-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="554475069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-006.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-006_818F3B66.wem</CachePath>
+				</File>
+				<File Id="563125400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-004.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-004_4BB76909.wem</CachePath>
+				</File>
+				<File Id="571465399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Low_Burning\Impact_Low_Burning-002.wav</ShortName>
+					<CachePath>SFX/Impact_Low_Burning/Impact_Low_Burning-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="573693109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Sparkles\Cast_Sparkles-001.wav</ShortName>
+					<CachePath>SFX/Cast_Sparkles/Cast_Sparkles-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="586483513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whooshes\Impact_Whooshes-004.wav</ShortName>
+					<CachePath>SFX/Impact_Whooshes/Impact_Whooshes-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="590648562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whooshes\Impact_Whooshes-001.wav</ShortName>
+					<CachePath>SFX/Impact_Whooshes/Impact_Whooshes-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="595152607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Water\Cast_Water-003.wav</ShortName>
+					<CachePath>SFX/Cast_Water/Cast_Water-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="612412779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whoosh\Impact_Whoosh-003.wav</ShortName>
+					<CachePath>SFX/Impact_Whoosh/Impact_Whoosh-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="613397963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-004.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="615842749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Fire -004.wav</ShortName>
+					<CachePath>SFX/Impact_Fire -004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="619467344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Sub\Impact_Sub-001.wav</ShortName>
+					<CachePath>SFX/Impact_Sub/Impact_Sub-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="623237891" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-008.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-008_818F3B66.wem</CachePath>
+				</File>
+				<File Id="623759614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-001.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="626776582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Low_Burning\Impact_Low_Burning-003.wav</ShortName>
+					<CachePath>SFX/Impact_Low_Burning/Impact_Low_Burning-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633930741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whoosh -004.wav</ShortName>
+					<CachePath>SFX/Cast_Whoosh -004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="633976344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-006.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-006_818F3B66.wem</CachePath>
+				</File>
+				<File Id="661161191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-003.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="672437846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-006.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-006_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706493263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whoosh\Impact_Whoosh-002.wav</ShortName>
+					<CachePath>SFX/Impact_Whoosh/Impact_Whoosh-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="731545231" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Water\Cast_Water-004.wav</ShortName>
+					<CachePath>SFX/Cast_Water/Cast_Water-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="734328516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-010.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-010_56776655.wem</CachePath>
+				</File>
+				<File Id="771240880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-005.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-005_818F3B66.wem</CachePath>
+				</File>
+				<File Id="790382506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-005.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-005_C0A8172F.wem</CachePath>
+				</File>
+				<File Id="791415395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Water\Impact_Water-002.wav</ShortName>
+					<CachePath>SFX/Impact_Water/Impact_Water-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="792604118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whoosh -002.wav</ShortName>
+					<CachePath>SFX/Cast_Whoosh -002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="801719058" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-009.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-009_DA1921FE.wem</CachePath>
+				</File>
+				<File Id="802550041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Sparkles\Cast_Sparkles-002.wav</ShortName>
+					<CachePath>SFX/Cast_Sparkles/Cast_Sparkles-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="828421565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-007.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-007_BA267EF2.wem</CachePath>
+				</File>
+				<File Id="831618693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Transients\Impact_Transients-003.wav</ShortName>
+					<CachePath>SFX/Impact_Transients/Impact_Transients-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="894198606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-010.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-010_818F3B66.wem</CachePath>
+				</File>
+				<File Id="905119866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whooshes\Impact_Whooshes-002.wav</ShortName>
+					<CachePath>SFX/Impact_Whooshes/Impact_Whooshes-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="908553034" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Transients\Impact_Transients-002.wav</ShortName>
+					<CachePath>SFX/Impact_Transients/Impact_Transients-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="912485139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Water\Impact_Water-003.wav</ShortName>
+					<CachePath>SFX/Impact_Water/Impact_Water-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="918151638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whoosh -001.wav</ShortName>
+					<CachePath>SFX/Cast_Whoosh -001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="934903349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-008.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-008_818F3B66.wem</CachePath>
+				</File>
+				<File Id="949935114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FF_Concrete-009.wav</ShortName>
+					<CachePath>SFX/FF_Concrete-009_818F3B66.wem</CachePath>
+				</File>
+				<File Id="961638711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Whoosh -003.wav</ShortName>
+					<CachePath>SFX/Cast_Whoosh -003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="968918512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\FF_Grass-003.wav</ShortName>
+					<CachePath>SFX/Footsteps/FF_Grass-003_E135C8D4.wem</CachePath>
+				</File>
+				<File Id="981711288" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Low_Burning\Cast_Low_Burning-003.wav</ShortName>
+					<CachePath>SFX/Cast_Low_Burning/Cast_Low_Burning-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="997087747" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bag_Jostles-007.wav</ShortName>
+					<CachePath>SFX/Bag_Jostles-007_818F3B66.wem</CachePath>
+				</File>
+				<File Id="999699561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cloth_Movement-007.wav</ShortName>
+					<CachePath>SFX/Cloth_Movement-007_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1028103752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Low_Burning\Cast_Low_Burning-004.wav</ShortName>
+					<CachePath>SFX/Cast_Low_Burning/Cast_Low_Burning-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1028538234" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Landing_Jostle-004.wav</ShortName>
+					<CachePath>SFX/Landing_Jostle-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1029227620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Whoosh\Impact_Whoosh-004.wav</ShortName>
+					<CachePath>SFX/Impact_Whoosh/Impact_Whoosh-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1051663145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Low_Burning\Impact_Low_Burning-004.wav</ShortName>
+					<CachePath>SFX/Impact_Low_Burning/Impact_Low_Burning-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1069982316" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Low_Burning\Impact_Low_Burning-001.wav</ShortName>
+					<CachePath>SFX/Impact_Low_Burning/Impact_Low_Burning-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1070539893" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Impact_Fire -002.wav</ShortName>
+					<CachePath>SFX/Impact_Fire -002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1072709502" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cast_Sparkles\Cast_Sparkles-003.wav</ShortName>
+					<CachePath>SFX/Cast_Sparkles/Cast_Sparkles-003_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4010041136" Name="Play_Fire_Cast" ObjectPath="\Events\Default Work Unit\Play_Fire_Cast" GUID="{7D08D47B-1270-4FB1-A1E9-18ED69991749}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="35546970"/>
+						<MediaRef Id="58557049"/>
+						<MediaRef Id="349608024"/>
+						<MediaRef Id="375140070"/>
+						<MediaRef Id="399530728"/>
+						<MediaRef Id="411593493"/>
+						<MediaRef Id="633930741"/>
+						<MediaRef Id="792604118"/>
+						<MediaRef Id="918151638"/>
+						<MediaRef Id="961638711"/>
+						<MediaRef Id="981711288"/>
+						<MediaRef Id="1028103752"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="576145047" Name="Play_Fire_Impact" ObjectPath="\Events\Default Work Unit\Play_Fire_Impact" GUID="{5FB4887C-F520-4DFA-BE32-1612113D48BF}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.75">
+					<MediaRefs>
+						<MediaRef Id="15275814"/>
+						<MediaRef Id="288427198"/>
+						<MediaRef Id="415206517"/>
+						<MediaRef Id="571465399"/>
+						<MediaRef Id="612412779"/>
+						<MediaRef Id="615842749"/>
+						<MediaRef Id="626776582"/>
+						<MediaRef Id="706493263"/>
+						<MediaRef Id="1029227620"/>
+						<MediaRef Id="1051663145"/>
+						<MediaRef Id="1069982316"/>
+						<MediaRef Id="1070539893"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" GUID="{E59D3B8A-4449-4705-B7D8-F379163BF2E6}" DurationType="OneShot" DurationMin="1.673625" DurationMax="1.9081666">
+					<MediaRefs>
+						<MediaRef Id="13270863"/>
+						<MediaRef Id="23667309"/>
+						<MediaRef Id="180765155"/>
+						<MediaRef Id="204405801"/>
+						<MediaRef Id="299251037"/>
+						<MediaRef Id="312986345"/>
+						<MediaRef Id="320408370"/>
+						<MediaRef Id="357086044"/>
+						<MediaRef Id="623237891"/>
+						<MediaRef Id="623759614"/>
+						<MediaRef Id="633976344"/>
+						<MediaRef Id="661161191"/>
+						<MediaRef Id="672437846"/>
+						<MediaRef Id="934903349"/>
+						<MediaRef Id="997087747"/>
+						<MediaRef Id="999699561"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="4248645337" GUID="{20F4181E-221E-4710-9686-19C0F7F388D1}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="238919651"/>
+								<MediaRef Id="262901530"/>
+								<MediaRef Id="316085455"/>
+								<MediaRef Id="478544142"/>
+								<MediaRef Id="563125400"/>
+								<MediaRef Id="734328516"/>
+								<MediaRef Id="790382506"/>
+								<MediaRef Id="801719058"/>
+								<MediaRef Id="828421565"/>
+								<MediaRef Id="968918512"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="1216965916" GUID="{4A8C7B2B-2464-4F77-BB7C-23EA3311EDB3}"/>
+							<MediaRefs>
+								<MediaRef Id="9239909"/>
+								<MediaRef Id="311582913"/>
+								<MediaRef Id="434514611"/>
+								<MediaRef Id="503210394"/>
+								<MediaRef Id="520248404"/>
+								<MediaRef Id="554475069"/>
+								<MediaRef Id="613397963"/>
+								<MediaRef Id="771240880"/>
+								<MediaRef Id="894198606"/>
+								<MediaRef Id="949935114"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2323405115" Name="Play_Landing" ObjectPath="\Events\Default Work Unit\Play_Landing" GUID="{287D8139-5114-4BC4-AC54-6D978CEB0E79}" DurationType="OneShot" DurationMin="1.4899375" DurationMax="1.8730209">
+					<MediaRefs>
+						<MediaRef Id="183583779"/>
+						<MediaRef Id="212812549"/>
+						<MediaRef Id="535493041"/>
+						<MediaRef Id="1028538234"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="558646551" Name="Play_Magic_Cast" ObjectPath="\Events\Default Work Unit\Play_Magic_Cast" GUID="{36763730-CFCD-44C7-AEE0-1B1D59A67D79}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4196236882" Id="2654748154" GUID="{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"/>
+							<MediaRefs>
+								<MediaRef Id="10577091"/>
+								<MediaRef Id="88061822"/>
+								<MediaRef Id="308433249"/>
+								<MediaRef Id="333748730"/>
+								<MediaRef Id="379123308"/>
+								<MediaRef Id="409497695"/>
+								<MediaRef Id="457411993"/>
+								<MediaRef Id="573693109"/>
+								<MediaRef Id="595152607"/>
+								<MediaRef Id="731545231"/>
+								<MediaRef Id="802550041"/>
+								<MediaRef Id="1072709502"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4196236882" Id="2678880713" GUID="{EA240E1A-E1ED-4999-B890-9D6B61594F3A}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="35546970"/>
+								<MediaRef Id="58557049"/>
+								<MediaRef Id="349608024"/>
+								<MediaRef Id="375140070"/>
+								<MediaRef Id="399530728"/>
+								<MediaRef Id="411593493"/>
+								<MediaRef Id="633930741"/>
+								<MediaRef Id="792604118"/>
+								<MediaRef Id="918151638"/>
+								<MediaRef Id="961638711"/>
+								<MediaRef Id="981711288"/>
+								<MediaRef Id="1028103752"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3198256227" Name="Play_Water_Cast" ObjectPath="\Events\Default Work Unit\Play_Water_Cast" GUID="{5C523C17-D172-4ECF-90DE-6081065425FA}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="10577091"/>
+						<MediaRef Id="88061822"/>
+						<MediaRef Id="308433249"/>
+						<MediaRef Id="333748730"/>
+						<MediaRef Id="379123308"/>
+						<MediaRef Id="409497695"/>
+						<MediaRef Id="457411993"/>
+						<MediaRef Id="573693109"/>
+						<MediaRef Id="595152607"/>
+						<MediaRef Id="731545231"/>
+						<MediaRef Id="802550041"/>
+						<MediaRef Id="1072709502"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="17031456" Name="Play_Water_Impact" ObjectPath="\Events\Default Work Unit\Play_Water_Impact" GUID="{0C0E33E3-D2CC-4EEF-80B8-34E858AA1461}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="16074496"/>
+						<MediaRef Id="50830314"/>
+						<MediaRef Id="213794965"/>
+						<MediaRef Id="218835467"/>
+						<MediaRef Id="289460316"/>
+						<MediaRef Id="343703648"/>
+						<MediaRef Id="362367117"/>
+						<MediaRef Id="460717147"/>
+						<MediaRef Id="586483513"/>
+						<MediaRef Id="590648562"/>
+						<MediaRef Id="619467344"/>
+						<MediaRef Id="791415395"/>
+						<MediaRef Id="831618693"/>
+						<MediaRef Id="905119866"/>
+						<MediaRef Id="908553034"/>
+						<MediaRef Id="912485139"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{9223FAA6-4DF9-46D2-9F46-04F81B0F97DD}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Materials\Stone" GUID="{4A8C7B2B-2464-4F77-BB7C-23EA3311EDB3}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Materials\Dirt" GUID="{52433C1A-BE71-49CC-A721-30DC7F356B46}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Materials\Grass" GUID="{20F4181E-221E-4710-9686-19C0F7F388D1}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4196236882" Name="Elements" ObjectPath="\Switches\Default Work Unit\Elements" GUID="{1EB95066-B6D1-4BEF-B107-76A253B5ABF4}">
+					<Switches>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Elements\Water" GUID="{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"/>
+						<Switch Id="2678880713" Name="Fire" ObjectPath="\Switches\Default Work Unit\Elements\Fire" GUID="{EA240E1A-E1ED-4999-B890-9D6B61594F3A}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{C9C65397-01A0-3281-F063-5C4336BA1B45}">
 			<ObjectPath>Init</ObjectPath>
@@ -55,7 +608,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{51461AB0-5EDA-3EF8-5BA7-A2FC78062F7D}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{71ACAF99-0B72-253A-AC03-A94267311091}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -71,14 +624,6 @@
 				<File Id="663981064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\Moving_Cogs.wav</ShortName>
 					<CachePath>SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="772733432" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Cave Loop.wav</ShortName>
-					<CachePath>SFX/Cave Loop_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main_Menu_Theme.wav</ShortName>
-					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="800031998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r.wav</ShortName>
@@ -108,10 +653,6 @@
 					<ShortName>Day_Ambiences\Foliage.wav</ShortName>
 					<CachePath>SFX/Day_Ambiences/Foliage_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="1048667347" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Courtyard Loop with delay effect.wav</ShortName>
-					<CachePath>SFX/Courtyard Loop with delay effect_FBC78EF0.wem</CachePath>
-				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
@@ -128,11 +669,6 @@
 						<MediaRef Id="973220001"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
-					<MediaRefs>
-						<MediaRef Id="1048667347"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2075495050" Name="Play_Day_Ambiences" ObjectPath="\Events\Default Work Unit\Play_Day_Ambiences" GUID="{463D2B1B-B030-4B85-8A37-E74796A63CA0}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="851645482"/>
@@ -140,11 +676,6 @@
 						<MediaRef Id="1002008205"/>
 						<MediaRef Id="1021448084"/>
 						<MediaRef Id="1042899010"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="798657041"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -161,37 +692,11 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" GUID="{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}" Language="SFX" Hash="{B80C94C7-D773-E156-4B78-D5DF17E6B3F9}">
+		<SoundBank Id="3991942870" Type="User" GUID="{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}" Language="SFX" Hash="{8075EEFB-2136-8445-22D7-93138A5F3A36}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
-			<Media>
-				<File Id="772733432" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Cave Loop.wav</ShortName>
-					<CachePath>SFX/Cave Loop_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="798657041" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main_Menu_Theme.wav</ShortName>
-					<CachePath>SFX/Main_Menu_Theme_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1048667347" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Courtyard Loop with delay effect.wav</ShortName>
-					<CachePath>SFX/Courtyard Loop with delay effect_FBC78EF0.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
-					<MediaRefs>
-						<MediaRef Id="1048667347"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="798657041"/>
-					</MediaRefs>
-				</Event>
-			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{415105FA-580F-9450-0F44-E8AF189857D6}</FileHash>
+	<FileHash>{4F4AC5A2-9950-C835-CB80-D80AB966583C}</FileHash>
 </SoundBanksInfo>

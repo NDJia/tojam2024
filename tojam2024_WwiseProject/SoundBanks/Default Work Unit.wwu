@@ -14,14 +14,19 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Character" ID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Player" ID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" WorkUnitID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{C051D452-1B69-4913-8834-388D6D86C32C}" WorkUnitID="{C051D452-1B69-4913-8834-388D6D86C32C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Victory Music" ID="{FEB38DB1-750E-49AA-87E9-89073FE755D4}" WorkUnitID="{FEB38DB1-750E-49AA-87E9-89073FE755D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cave" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" WorkUnitID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Courtyard" ID="{48A14707-F4C8-4E02-901F-4B978C69B21F}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu" ID="{9227124A-AD2A-4E6B-8FCC-3189D53FC4BF}" WorkUnitID="{9227124A-AD2A-4E6B-8FCC-3189D53FC4BF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

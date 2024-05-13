@@ -10,66 +10,12 @@
     "Type": "User",
     "GUID": "{6E7D8E23-C19B-4C88-9F6F-E748F749FC94}",
     "Language": "SFX",
-    "Hash": "{B80C94C7-D773-E156-4B78-D5DF17E6B3F9}",
+    "Hash": "{8075EEFB-2136-8445-22D7-93138A5F3A36}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
-    "Path": "Music.bnk",
-    "Media": [
-     {
-      "Id": "772733432",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cave Loop.wav",
-      "CachePath": "SFX/Cave Loop_FBC78EF0.wem"
-     },
-     {
-      "Id": "798657041",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main_Menu_Theme.wav",
-      "CachePath": "SFX/Main_Menu_Theme_FBC78EF0.wem"
-     },
-     {
-      "Id": "1048667347",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Courtyard Loop with delay effect.wav",
-      "CachePath": "SFX/Courtyard Loop with delay effect_FBC78EF0.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "2717365404",
-      "Name": "Play_Courtyard_Loop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Courtyard_Loop",
-      "GUID": "{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}",
-      "DurationType": "OneShot",
-      "DurationMin": "22.403582",
-      "DurationMax": "22.403582",
-      "MediaRefs": [
-       {
-        "Id": "1048667347"
-       }
-      ]
-     },
-     {
-      "Id": "193626927",
-      "Name": "Play_Main_Menu_Theme",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
-      "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "798657041"
-       }
-      ]
-     }
-    ]
+    "Path": "Music.bnk"
    }
   ],
-  "FileHash": "{5A7BF41E-3AC1-CC00-5970-7CE530F51574}"
+  "FileHash": "{1F3D58A2-5CE6-1143-6677-EABE40A67027}"
  }
 }
