@@ -44,10 +44,10 @@
 				</Event>
 				<Event Name="Play_Main_Menu_Theme" ID="{DDB367AD-98FD-4A00-835B-7077CA60E286}">
 					<ChildrenList>
-						<Action Name="" ID="{E0E1798B-E65A-419E-B0E4-D93C8F00F9C5}" ShortID="877201538">
+						<Action Name="" ID="{4CE0F9AD-4C99-4214-AD19-16D594F6B8DE}" ShortID="942242969">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="COURTYARD_MUSIC" ID="{1DF5231E-3004-4DD4-ACD7-14489A4B1173}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+									<ObjectRef Name="MENU_MUSIC" ID="{670B603D-BFA8-43A9-AE7E-1438D5EB98B9}" WorkUnitID="{9227124A-AD2A-4E6B-8FCC-3189D53FC4BF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
