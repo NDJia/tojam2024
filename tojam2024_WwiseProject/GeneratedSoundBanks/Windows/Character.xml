@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{D47A97FB-28BC-6947-AFF6-28BCD2093120}">
+		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{76A88A0B-B6A5-7757-D0F7-69C7C3592971}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -392,6 +392,14 @@
 						<MediaRef Id="1028103752"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3268165109" Name="Play_Fire_Charge" ObjectPath="\Events\Default Work Unit\Play_Fire_Charge" GUID="{9A18754C-66BF-4C2A-9365-B91E0D2EC672}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="35546970"/>
+						<MediaRef Id="411593493"/>
+						<MediaRef Id="981711288"/>
+						<MediaRef Id="1028103752"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="576145047" Name="Play_Fire_Impact" ObjectPath="\Events\Default Work Unit\Play_Fire_Impact" GUID="{5FB4887C-F520-4DFA-BE32-1612113D48BF}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.75">
 					<MediaRefs>
 						<MediaRef Id="15275814"/>
@@ -468,44 +476,7 @@
 						<MediaRef Id="1028538234"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="558646551" Name="Play_Magic_Cast" ObjectPath="\Events\Default Work Unit\Play_Magic_Cast" GUID="{36763730-CFCD-44C7-AEE0-1B1D59A67D79}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4196236882" Id="2654748154" GUID="{3B20600A-296F-4AA1-9856-D8E5EC2F29AA}"/>
-							<MediaRefs>
-								<MediaRef Id="10577091"/>
-								<MediaRef Id="88061822"/>
-								<MediaRef Id="308433249"/>
-								<MediaRef Id="333748730"/>
-								<MediaRef Id="379123308"/>
-								<MediaRef Id="409497695"/>
-								<MediaRef Id="457411993"/>
-								<MediaRef Id="573693109"/>
-								<MediaRef Id="595152607"/>
-								<MediaRef Id="731545231"/>
-								<MediaRef Id="802550041"/>
-								<MediaRef Id="1072709502"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4196236882" Id="2678880713" GUID="{EA240E1A-E1ED-4999-B890-9D6B61594F3A}" Default="true"/>
-							<MediaRefs>
-								<MediaRef Id="35546970"/>
-								<MediaRef Id="58557049"/>
-								<MediaRef Id="349608024"/>
-								<MediaRef Id="375140070"/>
-								<MediaRef Id="399530728"/>
-								<MediaRef Id="411593493"/>
-								<MediaRef Id="633930741"/>
-								<MediaRef Id="792604118"/>
-								<MediaRef Id="918151638"/>
-								<MediaRef Id="961638711"/>
-								<MediaRef Id="981711288"/>
-								<MediaRef Id="1028103752"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
-				</Event>
+				<Event Id="558646551" Name="Play_Magic_Cast" ObjectPath="\Events\Default Work Unit\Play_Magic_Cast" GUID="{36763730-CFCD-44C7-AEE0-1B1D59A67D79}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3198256227" Name="Play_Water_Cast" ObjectPath="\Events\Default Work Unit\Play_Water_Cast" GUID="{5C523C17-D172-4ECF-90DE-6081065425FA}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="10577091"/>
@@ -520,6 +491,14 @@
 						<MediaRef Id="731545231"/>
 						<MediaRef Id="802550041"/>
 						<MediaRef Id="1072709502"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1590932430" Name="Play_Water_charge" ObjectPath="\Events\Default Work Unit\Play_Water_charge" GUID="{389E9D5B-86DF-4D47-BD8A-00EF86EB47EE}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="10577091"/>
+						<MediaRef Id="88061822"/>
+						<MediaRef Id="595152607"/>
+						<MediaRef Id="731545231"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="17031456" Name="Play_Water_Impact" ObjectPath="\Events\Default Work Unit\Play_Water_Impact" GUID="{0C0E33E3-D2CC-4EEF-80B8-34E858AA1461}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
@@ -560,5 +539,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73C30F3C-BA98-B3E3-A685-25001D716E8D}</FileHash>
+	<FileHash>{B7409750-9A2E-7084-71EE-FFCA704E33C4}</FileHash>
 </SoundBanksInfo>
