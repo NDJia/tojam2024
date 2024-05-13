@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{1295FDC3-BDA5-3B14-53F4-457A68192314}">
+		<SoundBank Id="436743010" Type="User" GUID="{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}" Language="SFX" Hash="{76A88A0B-B6A5-7757-D0F7-69C7C3592971}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
 			<ShortName>Character</ShortName>
 			<Path>Character.bnk</Path>
@@ -400,6 +400,14 @@
 						<MediaRef Id="1028103752"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3268165109" Name="Play_Fire_Charge" ObjectPath="\Events\Default Work Unit\Play_Fire_Charge" GUID="{9A18754C-66BF-4C2A-9365-B91E0D2EC672}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="35546970"/>
+						<MediaRef Id="411593493"/>
+						<MediaRef Id="981711288"/>
+						<MediaRef Id="1028103752"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="576145047" Name="Play_Fire_Impact" ObjectPath="\Events\Default Work Unit\Play_Fire_Impact" GUID="{5FB4887C-F520-4DFA-BE32-1612113D48BF}" DurationType="OneShot" DurationMin="1.375" DurationMax="1.75">
 					<MediaRefs>
 						<MediaRef Id="15275814"/>
@@ -493,6 +501,14 @@
 						<MediaRef Id="1072709502"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1590932430" Name="Play_Water_charge" ObjectPath="\Events\Default Work Unit\Play_Water_charge" GUID="{389E9D5B-86DF-4D47-BD8A-00EF86EB47EE}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<MediaRefs>
+						<MediaRef Id="10577091"/>
+						<MediaRef Id="88061822"/>
+						<MediaRef Id="595152607"/>
+						<MediaRef Id="731545231"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="17031456" Name="Play_Water_Impact" ObjectPath="\Events\Default Work Unit\Play_Water_Impact" GUID="{0C0E33E3-D2CC-4EEF-80B8-34E858AA1461}" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="16074496"/>
@@ -574,14 +590,34 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{41A82C18-CFEC-7D83-394D-50BB7C6D140C}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{A69DF0C1-E621-00E9-D919-CED99B260563}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="132620680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-002.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="197845122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Selection Made.wav</ShortName>
+					<CachePath>SFX/Selection Made_818F3B66.wem</CachePath>
+				</File>
+				<File Id="223654343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Game_Start.wav</ShortName>
+					<CachePath>SFX/Game_Start_818F3B66.wem</CachePath>
+				</File>
+				<File Id="224803968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-004.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-004_818F3B66.wem</CachePath>
+				</File>
 				<File Id="283805128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\Low_Rumble.wav</ShortName>
 					<CachePath>SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="325496604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-001.wav</ShortName>
+					<CachePath>SFX/Name_Entry-001_818F3B66.wem</CachePath>
 				</File>
 				<File Id="380214655" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Courtyard Loop.wav</ShortName>
@@ -591,9 +627,17 @@
 					<ShortName>Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC.wav</ShortName>
 					<CachePath>SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="460323072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-002.wav</ShortName>
+					<CachePath>SFX/Name_Entry-002_818F3B66.wem</CachePath>
+				</File>
 				<File Id="663981064" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\Moving_Cogs.wav</ShortName>
 					<CachePath>SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="734118293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-001.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-001_818F3B66.wem</CachePath>
 				</File>
 				<File Id="772733432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave Loop.wav</ShortName>
@@ -611,9 +655,17 @@
 					<ShortName>Day_Ambiences\Birds.wav</ShortName>
 					<CachePath>SFX/Day_Ambiences/Birds_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="853857001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Name_Entry-003.wav</ShortName>
+					<CachePath>SFX/Name_Entry-003_818F3B66.wem</CachePath>
+				</File>
 				<File Id="864997062" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Day_Ambiences\Heavy_rustles.wav</ShortName>
 					<CachePath>SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="905335795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Buttton_Movement-003.wav</ShortName>
+					<CachePath>SFX/Buttton_Movement-003_818F3B66.wem</CachePath>
 				</File>
 				<File Id="973220001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY.wav</ShortName>
@@ -695,5 +747,5 @@
 			<Path>Music.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6BA58153-BA56-773B-6322-1E3F498D8EEC}</FileHash>
+	<FileHash>{F9C7C611-190F-7988-F7A4-E383D38F99A8}</FileHash>
 </SoundBanksInfo>

@@ -10,11 +10,43 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{41A82C18-CFEC-7D83-394D-50BB7C6D140C}",
+    "Hash": "{A69DF0C1-E621-00E9-D919-CED99B260563}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "132620680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-002.wav",
+      "CachePath": "SFX/Buttton_Movement-002_818F3B66.wem"
+     },
+     {
+      "Id": "197845122",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Selection Made.wav",
+      "CachePath": "SFX/Selection Made_818F3B66.wem"
+     },
+     {
+      "Id": "223654343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game_Start.wav",
+      "CachePath": "SFX/Game_Start_818F3B66.wem"
+     },
+     {
+      "Id": "224803968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-004.wav",
+      "CachePath": "SFX/Buttton_Movement-004_818F3B66.wem"
+     },
      {
       "Id": "283805128",
       "Language": "SFX",
@@ -22,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Low_Rumble.wav",
       "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
+     },
+     {
+      "Id": "325496604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-001.wav",
+      "CachePath": "SFX/Name_Entry-001_818F3B66.wem"
      },
      {
       "Id": "380214655",
@@ -40,12 +80,28 @@
       "CachePath": "SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem"
      },
      {
+      "Id": "460323072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-002.wav",
+      "CachePath": "SFX/Name_Entry-002_818F3B66.wem"
+     },
+     {
       "Id": "663981064",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Moving_Cogs.wav",
       "CachePath": "SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem"
+     },
+     {
+      "Id": "734118293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-001.wav",
+      "CachePath": "SFX/Buttton_Movement-001_818F3B66.wem"
      },
      {
       "Id": "772733432",
@@ -80,12 +136,28 @@
       "CachePath": "SFX/Day_Ambiences/Birds_FBC78EF0.wem"
      },
      {
+      "Id": "853857001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-003.wav",
+      "CachePath": "SFX/Name_Entry-003_818F3B66.wem"
+     },
+     {
       "Id": "864997062",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Day_Ambiences\\Heavy_rustles.wav",
       "CachePath": "SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "905335795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-003.wav",
+      "CachePath": "SFX/Buttton_Movement-003_818F3B66.wem"
      },
      {
       "Id": "973220001",
@@ -257,6 +329,6 @@
     ]
    }
   ],
-  "FileHash": "{8E3C3CA4-F7B2-4B50-8AE5-5F3CA7614A42}"
+  "FileHash": "{4F6DA88A-1247-1543-0C3D-23F056DBDAB1}"
  }
 }

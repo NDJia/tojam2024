@@ -17,15 +17,24 @@ Effect plug-ins	ID	Name	Type				Notes
 	2791153688	Hall_Small	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	132620680	Buttton_Movement-002	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Buttton_Movement-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\Buttton_Movement-002		178444
+	197845122	Selection Made	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Selection Made_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Selection Made		367292
+	223654343	Game_Start	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Game_Start_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Game_Start		614972
+	224803968	Buttton_Movement-004	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Buttton_Movement-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\Buttton_Movement-004		213208
 	283805128	Low_Rumble	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\Low_Rumble_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\Low_Rumble		7591088
+	325496604	Name_Entry-001	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Name_Entry-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Character_Input\Name_Entry-001		72096
 	380214655	Courtyard Loop	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Courtyard Loop_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Courtyard\COURTYARD_MUSIC\Courtyard Loop\Courtyard Loop		3952088
 	424278967	WATRDrip_Water Drips_PSE_OS_MUgJC	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\WATRDrip_Water Drips_PSE_OS_MUgJC		9744548
+	460323072	Name_Entry-002	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Name_Entry-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Character_Input\Name_Entry-002		72096
 	663981064	Moving_Cogs	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\Moving_Cogs_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\Moving_Cogs		17465100
+	734118293	Buttton_Movement-001	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Buttton_Movement-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\Buttton_Movement-001		130280
 	772733432	Cave Loop	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave Loop_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Cave\Cave Loop\Cave Loop		6879696
 	798657041	Main_Menu_Theme	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Main_Menu_Theme_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MENU_MUSIC\Main_Menu_Theme\Main_Menu_Theme		4937240
 	800031998	ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\ANMLInsc_Magical Wing Flutter_PSE_OS_jI07r		7521936
 	851645482	Birds	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Birds_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Birds		15552096
+	853857001	Name_Entry-003	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Name_Entry-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Character_Input\Name_Entry-003		72096
 	864997062	Heavy_rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavy_rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavy_rustles		4320096
+	905335795	Buttton_Movement-003	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Buttton_Movement-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button\Buttton_Movement-003		158264
 	973220001	WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Cave_Ambience\WATRSplsh_Drop Toast into Water_PSE_OS_Ja4BY		2973280
 	1002008205	Smaller_Rustles	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Smaller_Rustles_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Smaller_Rustles		5760096
 	1021448084	Heavier_wind	Y:\Documents\GitHub\tojam2024\tojam2024_WwiseProject\.cache\Mac\SFX\Day_Ambiences\Heavier_wind_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Day_Ambiences\Heavier_wind		7667556

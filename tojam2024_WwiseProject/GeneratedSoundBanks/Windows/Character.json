@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7CCE7C5F-ABE4-4FF8-8BBE-9377E3AA1443}",
     "Language": "SFX",
-    "Hash": "{1295FDC3-BDA5-3B14-53F4-457A68192314}",
+    "Hash": "{76A88A0B-B6A5-7757-D0F7-69C7C3592971}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Character",
     "ShortName": "Character",
     "Path": "Character.bnk",
@@ -801,6 +801,29 @@
       ]
      },
      {
+      "Id": "3268165109",
+      "Name": "Play_Fire_Charge",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fire_Charge",
+      "GUID": "{9A18754C-66BF-4C2A-9365-B91E0D2EC672}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "35546970"
+       },
+       {
+        "Id": "411593493"
+       },
+       {
+        "Id": "981711288"
+       },
+       {
+        "Id": "1028103752"
+       }
+      ]
+     },
+     {
       "Id": "576145047",
       "Name": "Play_Fire_Impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Fire_Impact",
@@ -1069,6 +1092,29 @@
       ]
      },
      {
+      "Id": "1590932430",
+      "Name": "Play_Water_charge",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Water_charge",
+      "GUID": "{389E9D5B-86DF-4D47-BD8A-00EF86EB47EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5",
+      "DurationMax": "1.5",
+      "MediaRefs": [
+       {
+        "Id": "10577091"
+       },
+       {
+        "Id": "88061822"
+       },
+       {
+        "Id": "595152607"
+       },
+       {
+        "Id": "731545231"
+       }
+      ]
+     },
+     {
       "Id": "17031456",
       "Name": "Play_Water_Impact",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Water_Impact",
@@ -1178,6 +1224,6 @@
     ]
    }
   ],
-  "FileHash": "{7CA70CC0-41AA-B578-8E83-48B5B38D1581}"
+  "FileHash": "{38E22737-8ADD-98F2-470A-1CE5F8C57E91}"
  }
 }

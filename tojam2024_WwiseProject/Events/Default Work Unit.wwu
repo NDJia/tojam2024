@@ -209,6 +209,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Fire_Charge" ID="{9A18754C-66BF-4C2A-9365-B91E0D2EC672}">
+					<ChildrenList>
+						<Action Name="" ID="{E343E319-A1CD-4E33-AD49-E80A72B2117A}" ShortID="479441986">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cast_Low_Burning" ID="{FBCC147C-AAA9-408B-9639-5F17F5AE31CB}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_charge" ID="{389E9D5B-86DF-4D47-BD8A-00EF86EB47EE}">
+					<ChildrenList>
+						<Action Name="" ID="{61F45176-3654-42BB-B8BC-B3A07520CAA4}" ShortID="278152113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cast_Water" ID="{18F1E578-9CB9-42DD-8E5F-42EAF5783F91}" WorkUnitID="{6463198C-94ED-4928-97E2-DE621A065121}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
