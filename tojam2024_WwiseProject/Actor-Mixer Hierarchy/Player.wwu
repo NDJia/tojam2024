@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" SchemaVersion="119" RootDocumentID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}" ParentDocumentID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{7CDB42DF-A56A-4727-8E55-C8E09DDB8328}" OwnerID="{038192AB-0C28-49ED-8D10-201CE59ECAD0}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Movement" ID="{793C44FC-7D1E-4BE9-98C3-0A8797634BBF}" PersistMode="Reference"/>
+				<WorkUnit Name="Spells" ID="{6463198C-94ED-4928-97E2-DE621A065121}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
