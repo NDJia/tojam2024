@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{38164EF4-812B-E198-8C19-834D3800F76D}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0EEF07BF-F485-C8FD-15DC-739F122768B6}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -26,6 +26,9 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume" GUID="{FF04CEB7-1BAA-45DB-9D51-58FF3F69A36B}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{9223FAA6-4DF9-46D2-9F46-04F81B0F97DD}">
 					<Switches>
@@ -43,5 +46,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B5DC6C7B-3F91-65A3-BDDD-E5A72E998C47}</FileHash>
+	<FileHash>{146F4594-4450-645E-5EA8-0A46B40EA3DA}</FileHash>
 </SoundBanksInfo>

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Menu" ID="{9227124A-AD2A-4E6B-8FCC-3189D53FC4BF}" PersistMode="Reference"/>
 				<WorkUnit Name="Courtyard" ID="{48A14707-F4C8-4E02-901F-4B978C69B21F}" PersistMode="Reference"/>
-				<WorkUnit Name="Cave" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" PersistMode="Reference"/>
+				<WorkUnit Name="Castle" ID="{96FBE9A2-E8BD-49B1-8E2E-E02689B860B1}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

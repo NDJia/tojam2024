@@ -9,6 +9,7 @@
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Environment" ID="{5C69296B-FDCD-47FE-8743-6D44F93F2F67}" WorkUnitID="{5C69296B-FDCD-47FE-8743-6D44F93F2F67}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI" ID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}" WorkUnitID="{D57EAE60-1F41-48C6-BC00-907E89F15FB5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{C051D452-1B69-4913-8834-388D6D86C32C}" WorkUnitID="{C051D452-1B69-4913-8834-388D6D86C32C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
