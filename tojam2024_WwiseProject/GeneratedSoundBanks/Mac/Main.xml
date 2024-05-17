@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{A69DF0C1-E621-00E9-D919-CED99B260563}">
+		<SoundBank Id="3161908922" Type="User" GUID="{10EB9952-5549-466B-A94F-2098A999619A}" Language="SFX" Hash="{004CE817-E6E0-0D9C-9BAF-33E42FBCD460}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -105,6 +105,14 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
+				<Event Id="2099555730" Name="Play_Button" ObjectPath="\Events\Default Work Unit\Play_Button" GUID="{3B6D7DAB-6E83-4B8C-AB7C-A7B26B581C2D}" DurationType="OneShot" DurationMin="0.67804164" DurationMax="1.1099583">
+					<MediaRefs>
+						<MediaRef Id="132620680"/>
+						<MediaRef Id="224803968"/>
+						<MediaRef Id="734118293"/>
+						<MediaRef Id="905335795"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1911082204" Name="Play_Cave_Ambience" ObjectPath="\Events\Default Work Unit\Play_Cave_Ambience" GUID="{F222CD81-A96C-45E5-B1BB-E93954251178}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="283805128"/>
@@ -114,7 +122,7 @@
 						<MediaRef Id="973220001"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="OneShot" DurationMin="22.403582" DurationMax="22.403582">
+				<Event Id="2717365404" Name="Play_Courtyard_Loop" ObjectPath="\Events\Default Work Unit\Play_Courtyard_Loop" GUID="{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380214655"/>
 						<MediaRef Id="1048667347"/>
@@ -129,10 +137,27 @@
 						<MediaRef Id="1042899010"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="4109843897" Name="Play_Game_Start" ObjectPath="\Events\Default Work Unit\Play_Game_Start" GUID="{FEF3409D-362E-42F4-9DAC-DBC2EA0504CA}" DurationType="OneShot" DurationMin="3.2024791" DurationMax="3.2024791">
+					<MediaRefs>
+						<MediaRef Id="223654343"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="193626927" Name="Play_Main_Menu_Theme" ObjectPath="\Events\Default Work Unit\Play_Main_Menu_Theme" GUID="{DDB367AD-98FD-4A00-835B-7077CA60E286}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380214655"/>
 						<MediaRef Id="1048667347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1123466688" Name="Play_Selection_Made" ObjectPath="\Events\Default Work Unit\Play_Selection_Made" GUID="{58A409A5-0139-48A9-8418-5B4B949AB939}" DurationType="OneShot" DurationMin="1.9124792" DurationMax="1.9124792">
+					<MediaRefs>
+						<MediaRef Id="197845122"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1745774406" Name="Play_Text_Input" ObjectPath="\Events\Default Work Unit\Play_Text_Input" GUID="{719ADEBD-392B-41F3-A00D-633262E3A1FD}" DurationType="OneShot" DurationMin="0.375" DurationMax="0.375">
+					<MediaRefs>
+						<MediaRef Id="325496604"/>
+						<MediaRef Id="460323072"/>
+						<MediaRef Id="853857001"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -153,5 +178,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C61AE76C-F5A1-971F-CEAE-9BEE26EBB255}</FileHash>
+	<FileHash>{6D5E8913-7253-BCF6-4DFF-4C9B288E2BFD}</FileHash>
 </SoundBanksInfo>

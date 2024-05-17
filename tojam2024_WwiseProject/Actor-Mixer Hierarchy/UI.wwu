@@ -125,7 +125,7 @@
 						<ActiveSource Name="Game_Start" ID="{807C25F3-5118-45BF-8E42-030FCC0F5336}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<RandomSequenceContainer Name="Character_Input" ID="{321607AF-6656-41F6-B391-D28C5F5900FC}" ShortID="380649795">
+				<RandomSequenceContainer Name="Text_Input" ID="{321607AF-6656-41F6-B391-D28C5F5900FC}" ShortID="380649795">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0DC27993-A02A-434E-AF49-408222E92C71}"/>

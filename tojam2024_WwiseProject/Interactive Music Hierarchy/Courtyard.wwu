@@ -17,9 +17,19 @@
 						<Reference Name="PlaylistRoot">
 							<Custom>
 								<MusicPlaylistItem Name="" ID="{B4526EBB-E640-48E9-97DC-4177AC80834E}" ShortID="105208020">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{14FFA0D1-423C-4C90-AA26-896FC7F09184}" ShortID="941632635">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Courtyard Loop" ID="{3C330E4A-1EB1-47EA-8919-9B63F260930A}" WorkUnitID="{48A14707-F4C8-4E02-901F-4B978C69B21F}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
 								</MusicPlaylistItem>
 							</Custom>
 						</Reference>
