@@ -10,11 +10,43 @@
     "Type": "User",
     "GUID": "{10EB9952-5549-466B-A94F-2098A999619A}",
     "Language": "SFX",
-    "Hash": "{41A82C18-CFEC-7D83-394D-50BB7C6D140C}",
+    "Hash": "{004CE817-E6E0-0D9C-9BAF-33E42FBCD460}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "132620680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-002.wav",
+      "CachePath": "SFX/Buttton_Movement-002_818F3B66.wem"
+     },
+     {
+      "Id": "197845122",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Selection Made.wav",
+      "CachePath": "SFX/Selection Made_818F3B66.wem"
+     },
+     {
+      "Id": "223654343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Game_Start.wav",
+      "CachePath": "SFX/Game_Start_818F3B66.wem"
+     },
+     {
+      "Id": "224803968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-004.wav",
+      "CachePath": "SFX/Buttton_Movement-004_818F3B66.wem"
+     },
      {
       "Id": "283805128",
       "Language": "SFX",
@@ -22,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Low_Rumble.wav",
       "CachePath": "SFX/Cave_Ambience/Low_Rumble_FBC78EF0.wem"
+     },
+     {
+      "Id": "325496604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-001.wav",
+      "CachePath": "SFX/Name_Entry-001_818F3B66.wem"
      },
      {
       "Id": "380214655",
@@ -40,12 +80,28 @@
       "CachePath": "SFX/Cave_Ambience/WATRDrip_Water Drips_PSE_OS_MUgJC_FBC78EF0.wem"
      },
      {
+      "Id": "460323072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-002.wav",
+      "CachePath": "SFX/Name_Entry-002_818F3B66.wem"
+     },
+     {
       "Id": "663981064",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Cave_Ambience\\Moving_Cogs.wav",
       "CachePath": "SFX/Cave_Ambience/Moving_Cogs_FBC78EF0.wem"
+     },
+     {
+      "Id": "734118293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-001.wav",
+      "CachePath": "SFX/Buttton_Movement-001_818F3B66.wem"
      },
      {
       "Id": "772733432",
@@ -80,12 +136,28 @@
       "CachePath": "SFX/Day_Ambiences/Birds_FBC78EF0.wem"
      },
      {
+      "Id": "853857001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Name_Entry-003.wav",
+      "CachePath": "SFX/Name_Entry-003_818F3B66.wem"
+     },
+     {
       "Id": "864997062",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Day_Ambiences\\Heavy_rustles.wav",
       "CachePath": "SFX/Day_Ambiences/Heavy_rustles_FBC78EF0.wem"
+     },
+     {
+      "Id": "905335795",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Buttton_Movement-003.wav",
+      "CachePath": "SFX/Buttton_Movement-003_818F3B66.wem"
      },
      {
       "Id": "973220001",
@@ -142,6 +214,29 @@
     },
     "Events": [
      {
+      "Id": "2099555730",
+      "Name": "Play_Button",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Button",
+      "GUID": "{3B6D7DAB-6E83-4B8C-AB7C-A7B26B581C2D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.67804164",
+      "DurationMax": "1.1099583",
+      "MediaRefs": [
+       {
+        "Id": "132620680"
+       },
+       {
+        "Id": "224803968"
+       },
+       {
+        "Id": "734118293"
+       },
+       {
+        "Id": "905335795"
+       }
+      ]
+     },
+     {
       "Id": "1911082204",
       "Name": "Play_Cave_Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Ambience",
@@ -170,9 +265,7 @@
       "Name": "Play_Courtyard_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Courtyard_Loop",
       "GUID": "{6AFCD6D3-16FA-459C-AEA2-55ECECCFF0EC}",
-      "DurationType": "OneShot",
-      "DurationMin": "22.403582",
-      "DurationMax": "22.403582",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "380214655"
@@ -207,19 +300,65 @@
       ]
      },
      {
+      "Id": "4109843897",
+      "Name": "Play_Game_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Game_Start",
+      "GUID": "{FEF3409D-362E-42F4-9DAC-DBC2EA0504CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2024791",
+      "DurationMax": "3.2024791",
+      "MediaRefs": [
+       {
+        "Id": "223654343"
+       }
+      ]
+     },
+     {
       "Id": "193626927",
       "Name": "Play_Main_Menu_Theme",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_Menu_Theme",
       "GUID": "{DDB367AD-98FD-4A00-835B-7077CA60E286}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "380214655"
        },
        {
         "Id": "1048667347"
+       }
+      ]
+     },
+     {
+      "Id": "1123466688",
+      "Name": "Play_Selection_Made",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Selection_Made",
+      "GUID": "{58A409A5-0139-48A9-8418-5B4B949AB939}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9124792",
+      "DurationMax": "1.9124792",
+      "MediaRefs": [
+       {
+        "Id": "197845122"
+       }
+      ]
+     },
+     {
+      "Id": "1745774406",
+      "Name": "Play_Text_Input",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Text_Input",
+      "GUID": "{719ADEBD-392B-41F3-A00D-633262E3A1FD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.375",
+      "DurationMax": "0.375",
+      "MediaRefs": [
+       {
+        "Id": "325496604"
+       },
+       {
+        "Id": "460323072"
+       },
+       {
+        "Id": "853857001"
        }
       ]
      }
@@ -257,6 +396,6 @@
     ]
    }
   ],
-  "FileHash": "{22003003-5CCD-C04E-DBA2-4EEB7BE3A555}"
+  "FileHash": "{9EC01037-7512-83FE-4993-55467C5172E2}"
  }
 }

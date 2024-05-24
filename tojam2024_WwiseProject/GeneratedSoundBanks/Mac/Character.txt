@@ -2,8 +2,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	17031456	Play_Water_Impact			\Default Work Unit\Play_Water_Impact	
 	558646551	Play_Magic_Cast			\Default Work Unit\Play_Magic_Cast	
 	576145047	Play_Fire_Impact			\Default Work Unit\Play_Fire_Impact	
+	1590932430	Play_Water_charge			\Default Work Unit\Play_Water_charge	
 	2323405115	Play_Landing			\Default Work Unit\Play_Landing	
 	3198256227	Play_Water_Cast			\Default Work Unit\Play_Water_Cast	
+	3268165109	Play_Fire_Charge			\Default Work Unit\Play_Fire_Charge	
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	4010041136	Play_Fire_Cast			\Default Work Unit\Play_Fire_Cast	
 

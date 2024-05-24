@@ -17,6 +17,19 @@
 									<PropertyList>
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{444B5F64-7100-41B8-96DE-5909438D82D6}" ShortID="109002420">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="Main_Menu_Theme" ID="{D71990FD-D7F1-4EF6-8F8C-8E59681A4AB0}" WorkUnitID="{9227124A-AD2A-4E6B-8FCC-3189D53FC4BF}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
 								</MusicPlaylistItem>
 							</Custom>
 						</Reference>
